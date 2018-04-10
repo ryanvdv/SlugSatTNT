@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HEADER2C10R100LS.dra                          )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 09 17:41:04 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols
+    Name      = header2c10r100ls.psm
+    User      = admatthe
+    Machine   = BE308PC02
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
