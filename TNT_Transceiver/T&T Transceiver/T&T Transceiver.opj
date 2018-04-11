@@ -46,10 +46,39 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "FALSE")
     (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "E:\SlugSat Design Files\T&T Transceiver\T&T Transceiver\pcb")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\T&T TRANSCEIVER.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\t&t transceiver.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File
+       "e:\slugsat design files\t&t transceiver\t&t transceiver\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File
+       "e:\slugsat design files\t&t transceiver\t&t transceiver\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File
+       "e:\slugsat design files\t&t transceiver\t&t transceiver\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (PJ-036AH-SMT-TR
@@ -124,24 +153,44 @@
       (Path "Design Resources" ".\t&t transceiver.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\lib\transceiverlib.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\t&t transceiver.dsn"))
-    (HierarchyView
-      (Path "SCHEMATIC1"))
+      (Path "Outputs"))
+    (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 466"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 466"))
       (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1823 182 687"))
+      (Path
+         "E:\SlugSat Design Files\T&T Transceiver\T&T Transceiver\pcb\pstchip.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1771 130 635"))
+      (Path
+         "E:\SlugSat Design Files\T&T Transceiver\T&T Transceiver\pcb\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1797 156 661"))
+      (Path
+         "E:\SlugSat Design Files\T&T Transceiver\T&T Transceiver\pcb\pstxnet.dat")
+      (Scroll "0"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1693 52 557")
-        (Scroll "0 256")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1693 52 557")
+        (Scroll "0 300")
         (Zoom "136")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TNT_TRANSCEIVER\T&T TRANSCEIVER\T&T TRANSCEIVER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Transceiver")))
-  (LastUsedLibraryBrowseDirectory "C:\Users\admatthe\Downloads"))
+  (LastUsedLibraryBrowseDirectory "C:\Users\admatthe\Downloads")
+  (ISPCBBASICLICENSE "false"))

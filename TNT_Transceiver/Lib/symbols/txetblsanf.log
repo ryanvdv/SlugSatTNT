@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TXETBLSANF.dra                                )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Wed Apr 11 15:16:17 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols
+    Name      = txetblsanf.psm
+    User      = admatthe
+    Machine   = BE308PC02
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

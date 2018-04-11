@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Wed Apr 11 15:19:19 2018
+\t (00:00:02)         Host=BE308PC02 User=admatthe Pid=10048 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\Lib\symbols\SMC0805.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:05) fillin yes 
+\d (00:00:05) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/SMC0805.dra
+\i (00:00:06) trapsize 34
+\i (00:00:06) trapsize 57
+\i (00:00:06) generaledit 
+\i (00:00:08) pick grid 231.3 -118.4
+\t (00:00:08) last pick:  225.0 -125.0
+\i (00:00:47) exit 
+\e (00:00:47) Do you want to save the changes you made to SMC0805.dra?
+\i (00:00:49) fillin no 
+\t (00:00:49)     Journal end - Wed Apr 11 15:20:06 2018
