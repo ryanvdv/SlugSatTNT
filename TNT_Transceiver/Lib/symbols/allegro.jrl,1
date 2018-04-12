@@ -1,18 +1,66 @@
 \t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Wed Apr 11 15:19:19 2018
-\t (00:00:02)         Host=BE308PC02 User=admatthe Pid=10048 CPUs=4
-\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\Lib\symbols\SMC0805.dra
+\t (00:00:02)     Journal start - Wed Apr 11 15:20:10 2018
+\t (00:00:02)         Host=BE308PC02 User=admatthe Pid=2104 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\Lib\symbols\SMC0603.dra
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
 \i (00:00:05) fillin yes 
-\d (00:00:05) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/SMC0805.dra
-\i (00:00:06) trapsize 34
-\i (00:00:06) trapsize 57
+\d (00:00:05) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/SMC0603.dra
+\i (00:00:05) trapsize 52
+\i (00:00:05) trapsize 53
+\i (00:00:05) trapsize 107
 \i (00:00:06) generaledit 
-\i (00:00:08) pick grid 231.3 -118.4
-\t (00:00:08) last pick:  225.0 -125.0
-\i (00:00:47) exit 
-\e (00:00:47) Do you want to save the changes you made to SMC0805.dra?
-\i (00:00:49) fillin no 
-\t (00:00:49)     Journal end - Wed Apr 11 15:20:06 2018
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 45.0 -10.8
+\i (00:00:07) trapsize 54
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -306.7 -14.0
+\i (00:00:07) trapsize 27
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -45.1 -32.7
+\i (00:00:08) trapsize 54
+\i (00:00:24) setwindow form.mini
+\i (00:00:24) FORM mini class COMPONENT VALUE 
+\i (00:00:26) FORM mini subclass SILKSCREEN_TOP 
+\i (00:00:27) FORM mini subcolor 0 
+\i (00:00:28) FORM mini subcolor 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) prepopup 405.2 -94.9
+\i (00:00:32) pop dyn_option_select @:@Move 
+\i (00:00:32) move 
+\t (00:00:32) last pick:  400.0 -100.0
+\t (00:00:32) last pick:  -32.5 -120.5
+\t (00:00:32) Pick new location for the element(s).
+\i (00:00:33) pick grid 442.8 62.7
+\t (00:00:33) last pick:  400.0 100.0
+\i (00:00:33) generaledit 
+\i (00:00:40) setwindow form.mini
+\i (00:00:40) FORM mini class REF DES 
+\i (00:00:41) FORM mini subcolor 0 
+\i (00:00:41) FORM mini subcolor 1 
+\i (00:00:43) FORM mini subclass ASSEMBLY_TOP 
+\i (00:00:44) FORM mini subcolor 0 
+\i (00:00:45) FORM mini subcolor 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) pick grid 828.8 -77.7
+\t (00:00:46) last pick:  800.0 -100.0
+\i (00:00:46) prepopup 748.3 109.9
+\i (00:00:47) pop dyn_option_select @:@Move 
+\i (00:00:47) move 
+\t (00:00:47) last pick:  700.0 100.0
+\t (00:00:47) last pick:  400.0 100.0
+\t (00:00:47) Pick new location for the element(s).
+\i (00:00:48) pick grid 47.1 -216.0
+\t (00:00:48) last pick:  0.0 -200.0
+\i (00:00:48) generaledit 
+\i (00:00:49) pick grid 493.2 68.1
+\t (00:00:49) last pick:  500.0 100.0
+\i (00:00:50) prepopup 455.6 78.8
+\i (00:00:52) exit 
+\e (00:00:52) Do you want to save the changes you made to SMC0603.dra?
+\i (00:00:54) fillin no 
+\t (00:00:54)     Journal end - Wed Apr 11 15:21:02 2018

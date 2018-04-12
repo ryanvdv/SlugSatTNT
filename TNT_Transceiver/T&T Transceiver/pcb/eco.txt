@@ -1,0 +1,359 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CSN          pins ADDED TO this new net
+                                 J4.4           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C4.1           C6.1           C7.1           
+                                 C9.1           C10.1          C12.1          
+                                 C13.1          C14.1          C15.1          
+                                 C16.1          C17.1          C18.1          
+                                 C19.1          C20.1          C21.1          
+                                 C22.1          C23.1          C24.1          
+                                 C25.1          C26.1          C27.1          
+                                 C28.1          J1.2           J1.3           
+                                 J2.2           J2.3           J3.2           
+                                 J3.3           J4.11          J4.13          
+                                 J4.15          J4.17          J4.19          
+                                 J5.2           J5.3           L3.2           
+                                 R1.1           U1.30          U1.33          
+                                 X1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO0        pins ADDED TO this new net
+                                 J4.12          U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO2        pins ADDED TO this new net
+                                 J4.14          U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GPIO3        pins ADDED TO this new net
+                                 J4.16          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MISO         pins ADDED TO this new net
+                                 J4.10          U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOSI         pins ADDED TO this new net
+                                 J4.8           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00387       pins ADDED TO this new net
+                                 R1.2           U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00495       pins ADDED TO this new net
+                                 C1.1           X1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00499       pins ADDED TO this new net
+                                 C1.2           R2.2           U1.32          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00575       pins ADDED TO this new net
+                                 C2.2           U1.23          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N00579       pins ADDED TO this new net
+                                 C2.1           U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00816       pins ADDED TO this new net
+                                 C4.2           L1.2           L2.1           
+                                 U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00823       pins ADDED TO this new net
+                                 C3.2           L1.1           L3.1           
+                                 U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01542       pins ADDED TO this new net
+                                 C3.1           L2.2           L4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03488       pins ADDED TO this new net
+                                 C14.2          U1.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03496       pins ADDED TO this new net
+                                 C15.2          U1.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03504       pins ADDED TO this new net
+                                 C16.2          U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03512       pins ADDED TO this new net
+                                 C17.2          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04822       pins ADDED TO this new net
+                                 C6.2           L5.2           L6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04826       pins ADDED TO this new net
+                                 C7.2           L6.2           L7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04983       pins ADDED TO this new net
+                                 L8.2           L9.1           U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05046       pins ADDED TO this new net
+                                 C8.1           L8.1           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05969       pins ADDED TO this new net
+                                 C11.2          L10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05973       pins ADDED TO this new net
+                                 C12.2          L10.2          L11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05977       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C13.2          L11.2          L12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06789       pins ADDED TO this new net
+                                 J1.1           L7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06823       pins ADDED TO this new net
+                                 J2.1           L12.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07312       pins ADDED TO this new net
+                                 J3.1           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08614       pins ADDED TO this new net
+                                 C5.2           L4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08703       pins ADDED TO this new net
+                                 C5.1           L5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N12367       pins ADDED TO this new net
+                                 C11.1          L9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13547       pins ADDED TO this new net
+                                 J5.1           L13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 J4.2           U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCLK         pins ADDED TO this new net
+                                 J4.6           U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRX          pins ADDED TO this new net
+                                 J4.18          U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_REG      pins ADDED TO this new net
+                                 C8.2           C9.2           C10.2          
+                                 C18.2          C19.2          C20.2          
+                                 C21.2          C22.2          C23.2          
+                                 C24.2          C25.2          C26.2          
+                                 C27.2          C28.2          J4.1           
+                                 J4.3           J4.5           J4.7           
+                                 J4.9           L13.2          R3.2           
+                                 U1.1           U1.5           U1.12          
+                                 U1.13          U1.15          U1.22          
+                                 U1.25          U1.27          U1.28          
+                                 X1.4           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CC1200_1_QFN_5X5_32P_CC1200
+ CON20A_BLKCON100VHTM2OEW20020_C
+ C_SMC0603_1.5N
+ C_SMC0603_2.2U
+ C_SMC0603_5.1P
+ C_SMC0603_6.8P
+ C_SMC0603_10N
+ C_SMC0603_22P
+ C_SMC0603_39P
+ C_SMC0603_47N
+ C_SMC0603_56P
+ C_SMC0603_100N
+ C_SMC0603_100P
+ C_SMC0603_220N
+ L_0_SMC0603_15N
+ L_0_SMC0603_18N
+ L_0_SMC0603_21N
+ L_0_SMC0603_27N
+ L_0_SMC0603_39N
+ L_0_SMC0603_56N
+ L_0_SMC0805_BLM21PG221SN1D
+ PJ-036AH-SMT-TR_PJ-036AH-SMT-TR
+ R_SMC0603_56K
+ R_SMC0603_0
+ R_SMC0603_18
+ SMA_EDGE_CON_SMA_EDGE_SMA_EDGE
+ TXETBLSANF-40_0.000000 _TXETBLS
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0603_22P         
+ C2                  C_SMC0603_1.5N        
+ C3                  C_SMC0603_5.1P        
+ C4                  C_SMC0603_5.1P        
+ C5                  C_SMC0603_5.1P        
+ C6                  C_SMC0603_6.8P        
+ C7                  C_SMC0603_6.8P        
+ C8                  C_SMC0603_56P         
+ C9                  C_SMC0603_100P        
+ C10                 C_SMC0603_10N         
+ C11                 C_SMC0603_39P         
+ C12                 C_SMC0603_6.8P        
+ C13                 C_SMC0603_6.8P        
+ C14                 C_SMC0603_47N         
+ C15                 C_SMC0603_47N         
+ C16                 C_SMC0603_10N         
+ C17                 C_SMC0603_220N        
+ C18                 C_SMC0603_47N         
+ C19                 C_SMC0603_47N         
+ C20                 C_SMC0603_47N         
+ C21                 C_SMC0603_47N         
+ C22                 C_SMC0603_47N         
+ C23                 C_SMC0603_47N         
+ C24                 C_SMC0603_47N         
+ C25                 C_SMC0603_47N         
+ C26                 C_SMC0603_47N         
+ C27                 C_SMC0603_100N        
+ C28                 C_SMC0603_2.2U        
+ J1                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J2                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J3                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J4                  CON20A_BLKCON100VHTM2OEW20020_C 
+ J5                  PJ-036AH-SMT-TR_PJ-036AH-SMT-TR 
+ L1                  L_0_SMC0603_56N       
+ L2                  L_0_SMC0603_27N       
+ L3                  L_0_SMC0603_27N       
+ L4                  L_0_SMC0603_15N       
+ L5                  L_0_SMC0603_18N       
+ L6                  L_0_SMC0603_39N       
+ L7                  L_0_SMC0603_21N       
+ L8                  L_0_SMC0603_56N       
+ L9                  L_0_SMC0603_15N       
+ L10                 L_0_SMC0603_21N       
+ L11                 L_0_SMC0603_39N       
+ L12                 L_0_SMC0603_18N       
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L13                 L_0_SMC0805_BLM21PG221SN1D 
+ R1                  R_SMC0603_56K         
+ R2                  R_SMC0603_0           
+ R3                  R_SMC0603_18          
+ U1                  CC1200_1_QFN_5X5_32P_CC1200 
+ X1                  TXETBLSANF-40_0.000000 _TXETBLS 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C24.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C28.2                          PRIM_FILE      .\pstchip.dat
+ J1.3                           PRIM_FILE      .\pstchip.dat
+ J2.3                           PRIM_FILE      .\pstchip.dat
+ J3.3                           PRIM_FILE      .\pstchip.dat
+ J4.9                           PRIM_FILE      .\pstchip.dat
+ J5.3                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           PRIM_FILE      .\pstchip.dat
+ L4.2                           PRIM_FILE      .\pstchip.dat
+ L5.2                           PRIM_FILE      .\pstchip.dat
+ L6.2                           PRIM_FILE      .\pstchip.dat
+ L7.2                           PRIM_FILE      .\pstchip.dat
+ L8.2                           PRIM_FILE      .\pstchip.dat
+ L9.2                           PRIM_FILE      .\pstchip.dat
+ L10.2                          PRIM_FILE      .\pstchip.dat
+ L11.2                          PRIM_FILE      .\pstchip.dat
+ L12.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd        |
+|                                                    Thu Apr 12 14:10:48 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L13.2                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ U1.31                          PRIM_FILE      .\pstchip.dat
+ X1.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :     153                                        |
+|       Comp definitions added:      27                                        |
+|       Components added      :      51                                        |
+|       Slot property added   :      51                                        |
+|                                                                              |
+|   Total ECO changes reported:     282                                        |
+|------------------------------------------------------------------------------|

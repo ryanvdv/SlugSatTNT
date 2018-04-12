@@ -1,0 +1,520 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Apr-12-2018 at 13:30:14 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='T&T TRANSCEIVER';
+ POST_TIME='Mar 20 2017 11:21:40';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_SMC0603_22P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS477@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins477@analog.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins477@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_SMC0603_10N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5230@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5230@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5230@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_SMC0603_39P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5788@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5788@analog.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5788@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_SMC0603_6.8P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS6001@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins6001@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins6001@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_SMC0603_6.8P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS6017@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins6017@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins6017@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3518@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3518@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3518@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3534@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3534@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3534@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_SMC0603_10N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3550@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3550@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3550@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_SMC0603_220N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3566@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3566@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3566@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2084@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2084@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2084@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2110@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2110@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2110@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_SMC0603_1.5N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS559@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins559@analog.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins559@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2136@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2136@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2136@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2162@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2162@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2162@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2188@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2188@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2188@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2214@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2214@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2214@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2240@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2240@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2240@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2266@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2266@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2266@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'C_SMC0603_47N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS2292@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins2292@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins2292@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'C_SMC0603_100N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3828@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3828@analog.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3828@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'C_SMC0603_2.2U':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS7416@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins7416@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins7416@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_SMC0603_5.1P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS1520@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins1520@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins1520@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_SMC0603_5.1P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS1612@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins1612@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins1612@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_SMC0603_5.1P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4652@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4652@analog.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4652@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_SMC0603_6.8P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4762@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4762@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4762@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_SMC0603_6.8P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4802@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4802@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4802@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_SMC0603_56P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5060@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5060@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5060@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_SMC0603_100P':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5204@TRANSCEIVERLIB.C.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5204@transceiverlib.\c.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5204@transceiverlib.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'SMA_EDGE_CON_SMA_EDGE_SMA_EDGE':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS6771@TRANSCEIVERLIB.SMA_EDGE.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins6771@transceiverlib.\sma_edge.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins6771@transceiverlib.\sma_edge.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'SMA_EDGE_CON_SMA_EDGE_SMA_EDGE':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS6805@TRANSCEIVERLIB.SMA_EDGE.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins6805@transceiverlib.\sma_edge.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins6805@transceiverlib.\sma_edge.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'SMA_EDGE_CON_SMA_EDGE_SMA_EDGE':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS7161@TRANSCEIVERLIB.SMA_EDGE.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins7161@transceiverlib.\sma_edge.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins7161@transceiverlib.\sma_edge.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON20A_BLKCON100VHTM2OEW20020_C':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS9029@TRANSCEIVERLIB.CON20A.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins9029@transceiverlib.\con20a.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins9029@transceiverlib.\con20a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'PJ-036AH-SMT-TR_PJ-036AH-SMT-TR':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS13509@TRANSCEIVERLIB.PJ-036AH-SMT-TR.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins13509@transceiverlib.\pj-036ah-smt-tr.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins13509@transceiverlib.\pj-036ah-smt-tr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_0_SMC0603_56N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS800@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins800@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins800@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L10 'L_0_SMC0603_21N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5834@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5834@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5834@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L11 'L_0_SMC0603_39N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5850@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5850@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5850@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L12 'L_0_SMC0603_18N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5866@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5866@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5866@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L13 'L_0_SMC0805_BLM21PG221SN1D':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS7390@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins7390@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins7390@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'L_0_SMC0603_27N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS1061@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins1061@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins1061@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'L_0_SMC0603_27N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS1574@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins1574@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins1574@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L4 'L_0_SMC0603_15N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS3971@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins3971@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins3971@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L5 'L_0_SMC0603_18N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4684@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4684@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4684@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L6 'L_0_SMC0603_39N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4710@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4710@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4710@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L7 'L_0_SMC0603_21N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS4736@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins4736@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins4736@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L8 'L_0_SMC0603_56N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5002@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5002@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5002@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L9 'L_0_SMC0603_15N':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS12246@T&T TRANSCEIVER.L_0.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins12246@\t&t transceiver\.\l_0.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins12246@\t&t transceiver\.\l_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMC0603_56K':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS371@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins371@analog.\r.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins371@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMC0603_0':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS12080@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins12080@analog.\r.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins12080@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMC0603_18':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS5028@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins5028@analog.\r.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins5028@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CC1200_1_QFN_5X5_32P_CC1200':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS146@T&T TRANSCEIVER.CC1200_1.NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins146@\t&t transceiver\.\cc1200_1.normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins146@\t&t transceiver\.\cc1200_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ X1 'TXETBLSANF-40_0.000000 _TXETBLS':;
+
+SECTION_NUMBER 1
+ '@T&T TRANSCEIVER.SCHEMATIC1(SCH_1):INS441@T&T TRANSCEIVER.TXETBLSANF-40_0.000000 .NORMAL(CHIPS)':
+ C_PATH='@\t&t transceiver\.schematic1(sch_1):ins441@\t&t transceiver\.\txetblsanf-40_0.000000 .normal\(chips)',
+ P_PATH='@\t&t transceiver\.schematic1(sch_1):page_ins441@\t&t transceiver\.\txetblsanf-40_0.000000 .normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

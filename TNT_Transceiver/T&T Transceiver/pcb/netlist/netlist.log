@@ -1,0 +1,16 @@
+{ Using PSTWRITER 17.2.0 d001Apr-12-2018 at 13:30:13 }
+
+#1 WARNING(ORCAP-36006): Part Name "CON20A_BLKCON100VHTM2OEW20020_CON20A" is renamed to "CON20A_BLKCON100VHTM2OEW20020_C".
+#2 WARNING(ORCAP-36006): Part Name "PJ-036AH-SMT-TR_PJ-036AH-SMT-TR_PJ-036AH-SMT-TR" is renamed to "PJ-036AH-SMT-TR_PJ-036AH-SMT-TR".
+#3 WARNING(ORCAP-36006): Part Name "L_0_SMC0805_BLM21PG221SN1D " is renamed to "L_0_SMC0805_BLM21PG221SN1D".
+#4 WARNING(ORCAP-36006): Part Name "TXETBLSANF-40_0.000000 _TXETBLSANF_TXETBLSANF-40.000000 " is renamed to "TXETBLSANF-40_0.000000 _TXETBLS".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\netlist/pstchip.dat
+
+Loading... C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\netlist/pstchip.dat
+
+Loading... C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\netlist/pstxprt.dat
+
+Loading... C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\netlist/pstxnet.dat
+packaging the design view...

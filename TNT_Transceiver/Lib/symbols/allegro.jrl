@@ -1,66 +1,59 @@
-\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Wed Apr 11 15:20:10 2018
-\t (00:00:02)         Host=BE308PC02 User=admatthe Pid=2104 CPUs=4
-\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\Lib\symbols\SMC0603.dra
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Apr 12 13:34:17 2018
+\t (00:00:03)         Host=BE308PC02 User=admatthe Pid=7240 CPUs=4
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
-\i (00:00:05) fillin yes 
-\d (00:00:05) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/SMC0603.dra
-\i (00:00:05) trapsize 52
-\i (00:00:05) trapsize 53
-\i (00:00:05) trapsize 107
-\i (00:00:06) generaledit 
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in 45.0 -10.8
-\i (00:00:07) trapsize 54
-\i (00:00:07) zoom in 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom in -306.7 -14.0
-\i (00:00:07) trapsize 27
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out -45.1 -32.7
-\i (00:00:08) trapsize 54
-\i (00:00:24) setwindow form.mini
-\i (00:00:24) FORM mini class COMPONENT VALUE 
-\i (00:00:26) FORM mini subclass SILKSCREEN_TOP 
-\i (00:00:27) FORM mini subcolor 0 
-\i (00:00:28) FORM mini subcolor 1 
-\i (00:00:30) setwindow pcb
-\i (00:00:30) prepopup 405.2 -94.9
-\i (00:00:32) pop dyn_option_select @:@Move 
-\i (00:00:32) move 
-\t (00:00:32) last pick:  400.0 -100.0
-\t (00:00:32) last pick:  -32.5 -120.5
-\t (00:00:32) Pick new location for the element(s).
-\i (00:00:33) pick grid 442.8 62.7
-\t (00:00:33) last pick:  400.0 100.0
-\i (00:00:33) generaledit 
-\i (00:00:40) setwindow form.mini
-\i (00:00:40) FORM mini class REF DES 
-\i (00:00:41) FORM mini subcolor 0 
-\i (00:00:41) FORM mini subcolor 1 
-\i (00:00:43) FORM mini subclass ASSEMBLY_TOP 
-\i (00:00:44) FORM mini subcolor 0 
-\i (00:00:45) FORM mini subcolor 1 
-\i (00:00:46) setwindow pcb
-\i (00:00:46) pick grid 828.8 -77.7
-\t (00:00:46) last pick:  800.0 -100.0
-\i (00:00:46) prepopup 748.3 109.9
-\i (00:00:47) pop dyn_option_select @:@Move 
-\i (00:00:47) move 
-\t (00:00:47) last pick:  700.0 100.0
-\t (00:00:47) last pick:  400.0 100.0
-\t (00:00:47) Pick new location for the element(s).
-\i (00:00:48) pick grid 47.1 -216.0
-\t (00:00:48) last pick:  0.0 -200.0
-\i (00:00:48) generaledit 
-\i (00:00:49) pick grid 493.2 68.1
-\t (00:00:49) last pick:  500.0 100.0
-\i (00:00:50) prepopup 455.6 78.8
-\i (00:00:52) exit 
-\e (00:00:52) Do you want to save the changes you made to SMC0603.dra?
-\i (00:00:54) fillin no 
-\t (00:00:54)     Journal end - Wed Apr 11 15:21:02 2018
+\d (00:00:04) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/BLKCON100VHTM2OEW20020.dra
+\i (00:00:04) trapsize 73
+\i (00:00:04) trapsize 75
+\i (00:00:04) trapsize 75
+\i (00:00:04) generaledit 
+\i (00:01:34) pick grid 945.3 335.0
+\t (00:01:34) last pick:  950.0 325.0
+\i (00:01:42) enved 
+\i (00:01:43) generaledit 
+\i (00:01:48) setwindow form.prfedit
+\i (00:01:48) FORM prfedit cancel  
+\i (00:01:51) setwindow pcb
+\i (00:01:51) display toolbar param 
+\i (00:01:55) QtSignal spbtoolbareditor_tools spbtooltab_list itemSelectionChanged Dimension
+\i (00:01:55) QtSignal spbtoolbareditor_tools spbtooltab_list currentRowChanged 7
+\i (00:01:55) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 7 Dimension
+\i (00:02:03) QtSignal spbtoolbareditor_tools spbtooltab_list itemChanged 4 Display
+\i (00:02:14) QtSignal spbtoolbareditor_tools spbtooltab_lineedit editingFinished Dimension
+\i (00:02:14) QtSignal spbtoolbareditor spbtoolbareditor_closeBtn clicked
+\i (00:02:14) generaledit 
+\i (00:02:22) enved 
+\i (00:02:22) generaledit 
+\i (00:02:30) setwindow form.prfedit
+\i (00:02:30) FORM prfedit treelist  Browse Ui 
+\i (00:02:37) FORM prfedit nolast_directory YES 
+\i (00:02:39) FORM prfedit nolast_file YES 
+\i (00:02:45) FORM prfedit treelist  Ui 
+\i (00:02:52) FORM prfedit treelist  Output_dir File_management 
+\i (00:03:04) FORM prfedit ads_sdart artwork 
+\i (00:03:06) FORM prfedit ads_sdlog plots 
+\i (00:03:16) FORM prfedit ads_sdlog logs 
+\i (00:03:18) FORM prfedit ads_sdmcad plots 
+\i (00:03:21) FORM prfedit ads_sdplot reports 
+\i (00:03:35) FORM prfedit ads_sdmcad  
+\i (00:03:46) FORM prfedit ads_sdreport r 
+\i (00:03:50) FORM prfedit ads_sdplot plots 
+\i (00:03:54) FORM prfedit ads_sdreport reports 
+\i (00:04:01) FORM prfedit dump_library_directory dumplib 
+\i (00:04:16) FORM prfedit treelist  Library Paths 
+\i (00:04:22) FORM prfedit techpath  
+\i (00:04:43) FORM prfedit modulepath  
+\i (00:04:55) FORM prfedit padpath  
+\i (00:05:11) FORM prfedit parampath  
+\i (00:05:30) FORM prfedit psmpath  
+\i (00:05:46) FORM prfedit treelist  Autosave File_management 
+\i (00:05:56) FORM prfedit autosave_time 10 
+\i (00:05:56) FORM prfedit apply  
+\i (00:05:57) FORM prfedit done  
+\i (00:06:29) setwindow pcb
+\i (00:06:29) new 
+\i (00:06:56) newdrawfillin "Transceiver.brd" "Board"
+\t (00:06:56)     Journal end - Thu Apr 12 13:41:10 2018
