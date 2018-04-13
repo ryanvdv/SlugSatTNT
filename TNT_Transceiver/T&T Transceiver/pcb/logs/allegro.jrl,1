@@ -1,0 +1,1723 @@
+\t (00:00:02) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Apr 12 14:15:30 2018
+\t (00:00:02)         Host=BE308PC02 User=admatthe Pid=6568 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\Transceiver.brd
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd
+\t (00:00:04) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:00:04) trapsize 249
+\i (00:00:04) trapsize 261
+\t (00:00:04) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:00:04) trapsize 261
+\i (00:00:04) generaledit 
+\i (00:00:09) quickplace 
+\i (00:00:12) setwindow form.quickplc
+\i (00:00:12) FORM quickplc place  
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:21) FORM quickplc cancel  
+\i (00:00:21) setwindow pcb
+\i (00:00:21) generaledit 
+\i (00:00:27) quickplace 
+\i (00:00:29) setwindow form.quickplc
+\i (00:00:29) FORM quickplc place  
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:33) FORM quickplc done  
+\i (00:00:33) setwindow pcb
+\i (00:00:33) generaledit 
+\i (00:00:38) pick grid 2326.6 -408.2
+\t (00:00:38) last pick:  2328.3 -409.5
+\i (00:01:41) setwindow form.find
+\i (00:01:41) FORM find all_off  
+\i (00:02:06) FORM find symbols YES 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) prepopup 965.6 2120.9
+\i (00:02:08) pop dyn_option_select @:@Move 
+\i (00:02:08) move 
+\t (00:02:08) last pick:  967.2 2121.6
+\t (00:02:08) last pick:  1287.1 2289.5
+\t (00:02:08) Moving J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR.
+\t (00:02:08) Pick new location for the element(s).
+\i (00:02:10) zoom out 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom out 611.0 1672.4
+\i (00:02:10) trapsize 261
+\i (00:02:11) prepopup 783.1 1552.5
+\i (00:02:13) rotate 
+\t (00:02:13) Spin the element(s).
+\i (00:02:14) iangle -90.000
+\t (00:02:14) last angle:  270.000 Degrees
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in 282.5 1370.0
+\t (00:02:32) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:02:32) trapsize 130
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in -484.1 1370.0
+\t (00:02:32) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:02:32) trapsize 65
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out -282.0 1304.9
+\t (00:02:33) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:02:33) trapsize 130
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out 355.6 1216.2
+\t (00:02:34) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:02:34) trapsize 261
+\i (00:02:41) pick grid 1033.4 2068.7
+\t (00:02:41) last pick:  1033.5 2067.0
+\i (00:02:41) generaledit 
+\i (00:02:42) pick grid 2363.1 1729.8
+\t (00:02:42) last pick:  2363.4 1731.6
+\i (00:02:43) prepopup 136.5 2152.2
+\i (00:02:44) pop dyn_option_select @:@Move 
+\i (00:02:44) move 
+\t (00:02:44) last pick:  136.5 2152.8
+\t (00:02:44) last pick:  56.4 2237.0
+\t (00:02:44) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:02:44) Pick new location for the element(s).
+\i (00:02:47) pick grid -155.5 2386.8
+\t (00:02:47) last pick:  -156.0 2386.8
+\i (00:02:47) generaledit 
+\i (00:03:25) prepopup 1341.1 2355.5
+\i (00:03:27) pop dyn_option_select @:@Move 
+\i (00:03:27) move 
+\t (00:03:27) last pick:  1341.6 2355.6
+\t (00:03:27) last pick:  1033.5 2067.0
+\t (00:03:27) Moving J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR.
+\t (00:03:27) Pick new location for the element(s).
+\i (00:03:31) prepopup 642.3 1145.7
+\i (00:03:32) pick grid 642.3 1145.7
+\t (00:03:32) last pick:  643.5 1146.6
+\i (00:03:32) generaledit 
+\i (00:03:33) prepopup 861.3 1437.8
+\i (00:03:33) pop dyn_option_select @:@Move 
+\i (00:03:33) move 
+\t (00:03:33) last pick:  861.9 1439.1
+\t (00:03:33) last pick:  643.5 1146.6
+\t (00:03:33) Moving J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR.
+\t (00:03:33) Pick new location for the element(s).
+\i (00:03:35) pick grid 1038.6 2079.2
+\t (00:03:35) last pick:  1037.4 2078.7
+\i (00:03:35) generaledit 
+\t (00:03:36) last pick:  3077.5 1787.1
+\w (00:03:36) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:03:36) pick grid 2509.1 1933.1
+\t (00:03:36) last pick:  2507.7 1934.4
+\i (00:03:39) pick grid 2509.1 1698.5
+\t (00:03:39) last pick:  2507.7 1700.4
+\i (00:03:40) prepopup 1674.8 2115.7
+\i (00:03:40) pop dyn_option_select @:@Move 
+\i (00:03:40) move 
+\t (00:03:40) last pick:  1673.1 2113.8
+\t (00:03:40) last pick:  1635.9 2124.2
+\t (00:03:40) Moving J1 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE.
+\t (00:03:40) Pick new location for the element(s).
+\i (00:03:46) pick grid 1753.0 2120.9
+\t (00:03:46) last pick:  1751.1 2121.6
+\i (00:03:46) generaledit 
+\i (00:03:47) pick grid 2389.2 2037.4
+\t (00:03:47) last pick:  2390.7 2035.8
+\i (00:03:48) zoom in 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom in 6.1 2042.6
+\t (00:03:48) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:03:48) trapsize 130
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out -810.0 1789.8
+\t (00:03:48) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:03:48) trapsize 261
+\i (00:04:03) cmgr 
+\i (00:04:03) generaledit 
+\i (00:04:07) setwindow cmgr
+\i (00:04:07) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:04:10) cm newView ( kConsmgr worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (00:04:10) cm select ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:04:14) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 26:Wiring )
+\i (00:04:25) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 27:Impedance )
+\i (00:05:08) setwindow pcb
+\i (00:05:08) pick grid 167.8 2334.7
+\t (00:05:08) last pick:  167.7 2336.1
+\i (00:05:15) setwindow cmgr
+\i (00:05:15) cm close ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:05:15) cm close ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:05:15) cm exit
+\i (00:05:17) setwindow pcb
+\i (00:05:17) pick grid 459.8 2543.3
+\t (00:05:17) last pick:  460.2 2542.8
+\i (00:05:18) prepopup -72.1 2329.5
+\i (00:05:19) pop dyn_option_select @:@Move 
+\i (00:05:19) move 
+\t (00:05:19) last pick:  -70.2 2328.3
+\t (00:05:19) last pick:  -156.0 2386.8
+\t (00:05:19) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:05:19) Pick new location for the element(s).
+\i (00:06:15) pick grid -176.4 2355.5
+\t (00:06:15) last pick:  -175.5 2355.6
+\i (00:06:15) generaledit 
+\i (00:06:17) pick grid 2430.9 1881.0
+\t (00:06:17) last pick:  2429.7 1879.8
+\i (00:06:21) pick grid 1273.3 2407.7
+\t (00:06:21) last pick:  1271.4 2406.3
+\i (00:06:22) prepopup 1148.1 2376.4
+\i (00:06:23) pop dyn_option_select @:@Move 
+\i (00:06:23) move 
+\t (00:06:23) last pick:  1146.6 2375.1
+\t (00:06:23) last pick:  1037.4 2078.7
+\t (00:06:23) Moving J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR.
+\t (00:06:23) Pick new location for the element(s).
+\i (00:06:29) pick grid 329.4 1349.1
+\t (00:06:29) last pick:  327.6 1349.4
+\i (00:06:29) generaledit 
+\i (00:06:30) prepopup -609.2 1818.4
+\i (00:06:31) pop dyn_option_select @:@Move 
+\i (00:06:31) move 
+\t (00:06:31) last pick:  -608.4 1817.4
+\t (00:06:31) last pick:  -964.0 1808.5
+\t (00:06:31) Moving J4 / CON20A_BLKCON100VHTM2OEW20020_C / BLKCON100VHTM2OEW20020.
+\t (00:06:31) Pick new location for the element(s).
+\i (00:06:44) pick grid 814.4 1656.8
+\t (00:06:44) last pick:  815.1 1657.5
+\i (00:06:44) generaledit 
+\i (00:06:45) pick grid 2535.2 1359.5
+\t (00:06:45) last pick:  2535.0 1361.1
+\i (00:06:47) prepopup -82.5 2277.3
+\i (00:06:48) pop dyn_option_select @:@Move 
+\i (00:06:48) move 
+\t (00:06:48) last pick:  -81.9 2277.6
+\t (00:06:48) last pick:  -175.5 2355.6
+\t (00:06:48) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:06:48) Pick new location for the element(s).
+\i (00:07:22) pick grid -416.3 2319.0
+\t (00:07:22) last pick:  -417.3 2320.5
+\i (00:07:22) generaledit 
+\t (00:07:23) last pick:  2738.6 1072.7
+\w (00:07:23) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:07:25) prepopup -1125.4 1959.2
+\i (00:07:27) pop dyn_option_select @:@Move 
+\i (00:07:27) move 
+\t (00:07:27) last pick:  -1127.1 1957.8
+\t (00:07:27) last pick:  -1114.5 1927.5
+\t (00:07:27) Moving C11 / C_SMC0603_39P / SMC0603.
+\t (00:07:27) Pick new location for the element(s).
+\i (00:07:28) pick grid -1000.3 2371.2
+\t (00:07:28) last pick:  -998.4 2371.2
+\i (00:07:28) generaledit 
+\i (00:07:29) prepopup -1094.2 1860.1
+\i (00:07:30) pop dyn_option_select @:@Move 
+\i (00:07:30) move 
+\t (00:07:30) last pick:  -1095.9 1860.3
+\t (00:07:30) last pick:  -1114.5 1849.0
+\t (00:07:30) Moving C25 / C_SMC0603_47N / SMC0603.
+\t (00:07:30) Pick new location for the element(s).
+\i (00:07:31) pick grid -969.0 2126.1
+\t (00:07:31) last pick:  -967.2 2125.5
+\i (00:07:31) generaledit 
+\i (00:07:32) prepopup -1120.2 1776.7
+\i (00:07:32) pop dyn_option_select @:@Move 
+\i (00:07:32) move 
+\t (00:07:33) last pick:  -1119.3 1778.4
+\t (00:07:33) last pick:  -1114.5 1770.5
+\t (00:07:33) Moving C10 / C_SMC0603_10N / SMC0603.
+\t (00:07:33) Pick new location for the element(s).
+\i (00:07:34) pick grid -942.9 1912.3
+\t (00:07:34) last pick:  -943.8 1911.0
+\i (00:07:34) generaledit 
+\i (00:07:35) prepopup -1135.9 1672.4
+\i (00:07:36) pop dyn_option_select @:@Move 
+\i (00:07:36) move 
+\t (00:07:36) last pick:  -1134.9 1673.1
+\t (00:07:36) last pick:  -1114.5 1692.0
+\t (00:07:36) Moving C8 / C_SMC0603_56P / SMC0603.
+\t (00:07:36) Pick new location for the element(s).
+\i (00:07:39) pick grid -885.6 1599.4
+\t (00:07:39) last pick:  -885.3 1599.0
+\i (00:07:39) generaledit 
+\i (00:07:53) cmgr 
+\i (00:07:53) setwindow cmgr
+\i (00:07:53) cm newView ( kConsmgr worksheet 53:Electrical "1:Electrical Constraint Set" 7:Routing 8:Wiring )
+\i (00:07:53) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 27:Impedance )
+\i (00:07:53) cm select ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:07:53) cm select ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:07:53) setwindow pcb
+\i (00:07:53) generaledit 
+\i (00:08:00) setwindow cmgr
+\i (00:08:00) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing "34:Differential Pair" )
+\i (00:08:01) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing "29:Total Etch Length" )
+\i (00:08:02) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing "28:Min/Max Propagation Delays" )
+\i (00:08:02) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 27:Impedance )
+\i (00:08:13) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 311:Vias )
+\i (00:08:14) cm newView ( kConsmgr worksheet 53:Electrical 66:Net 25:Routing 26:Wiring )
+\i (00:08:16) cm select ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:08:34) cm select ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:08:36) cm select ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:08:38) cm select ( frame ( kConsmgr workbook 55:Physical 68:Region "69:All Layers" ) )
+\i (00:09:29) cm close ( frame ( kConsmgr workbook 53:Electrical "1:Electrical Constraint Set" 7:Routing ) )
+\i (00:09:29) cm close ( frame ( kConsmgr workbook 53:Electrical 66:Net 25:Routing ) )
+\i (00:09:29) cm close ( frame ( kConsmgr workbook 55:Physical 61:Net "62:All Layers" ) )
+\i (00:09:29) cm close ( frame ( kConsmgr workbook 55:Physical "56:Physical Constraint Set" "57:All Layers" ) )
+\i (00:09:29) cm close ( frame ( kConsmgr workbook 55:Physical 68:Region "69:All Layers" ) )
+\i (00:09:29) cm exit
+\i (00:09:45) setwindow pcb
+\i (00:09:45) rats all 
+\i (00:09:45) generaledit 
+\i (00:10:07) rats show 
+\i (00:10:07) generaledit 
+\i (00:10:08) pick grid 1294.1 1265.7
+\t (00:10:08) last pick:  1294.8 1267.5
+\i (00:10:09) prepopup 1315.0 1667.2
+\i (00:10:09) pop dyn_option_select @:@Move 
+\i (00:10:09) move 
+\t (00:10:09) last pick:  1314.3 1665.3
+\t (00:10:09) last pick:  815.1 1657.5
+\t (00:10:09) Moving J4 / CON20A_BLKCON100VHTM2OEW20020_C / BLKCON100VHTM2OEW20020.
+\t (00:10:09) Pick new location for the element(s).
+\i (00:10:10) pick grid 840.5 1698.5
+\t (00:10:10) last pick:  842.4 1700.4
+\i (00:10:11) generaledit 
+\i (00:10:11) pick grid 934.3 1302.2
+\t (00:10:11) last pick:  936.0 1302.6
+\i (00:10:17) rats component 
+\i (00:10:59) unrats all 
+\i (00:10:59) generaledit 
+\i (00:11:00) unrats all 
+\i (00:11:00) generaledit 
+\i (00:11:01) rats all 
+\i (00:11:01) generaledit 
+\i (00:11:02) unrats all 
+\i (00:11:02) generaledit 
+\i (00:11:18) zoom in 1 
+\i (00:11:18) setwindow pcb
+\i (00:11:18) zoom in -259.8 2246.0
+\t (00:11:18) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:18) trapsize 130
+\i (00:11:18) zoom in 1 
+\i (00:11:18) setwindow pcb
+\i (00:11:18) zoom in -755.2 2248.7
+\t (00:11:18) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:11:18) trapsize 65
+\i (00:11:23) setwindow form.find
+\i (00:11:23) FORM find pins YES 
+\i (00:11:29) setwindow pcb
+\i (00:11:29) rats net 
+\i (00:11:33) rats all 
+\i (00:11:34) generaledit 
+\i (00:11:40) rats net 
+\i (00:11:50) zoom out 1 
+\i (00:11:50) setwindow pcb
+\i (00:11:50) zoom out -540.2 2057.1
+\t (00:11:50) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:50) trapsize 130
+\i (00:11:50) zoom out 1 
+\i (00:11:50) setwindow pcb
+\i (00:11:50) zoom out -325.0 2057.2
+\t (00:11:50) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:11:50) trapsize 261
+\i (00:11:51) zoom in 1 
+\i (00:11:51) setwindow pcb
+\i (00:11:51) zoom in -577.9 999.7
+\t (00:11:51) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:51) trapsize 130
+\i (00:11:51) zoom in 1 
+\i (00:11:51) setwindow pcb
+\i (00:11:51) zoom in -859.5 1031.0
+\t (00:11:51) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:11:51) trapsize 65
+\i (00:11:51) zoom out 1 
+\i (00:11:51) setwindow pcb
+\i (00:11:51) zoom out -435.8 1147.1
+\t (00:11:51) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:51) trapsize 130
+\i (00:11:51) zoom out 1 
+\i (00:11:51) setwindow pcb
+\i (00:11:51) zoom out -12.1 1147.0
+\t (00:11:51) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:11:51) trapsize 261
+\i (00:11:52) unrats all 
+\i (00:11:52) generaledit 
+\i (00:11:53) zoom in 1 
+\i (00:11:53) setwindow pcb
+\i (00:11:53) zoom in 397.2 1552.5
+\t (00:11:53) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:53) trapsize 130
+\i (00:11:53) zoom in 1 
+\i (00:11:53) setwindow pcb
+\i (00:11:53) zoom in -424.1 1547.3
+\t (00:11:53) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:11:53) trapsize 65
+\i (00:11:54) zoom out 1 
+\i (00:11:54) setwindow pcb
+\i (00:11:54) zoom out -368.1 1523.9
+\t (00:11:54) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:54) trapsize 130
+\i (00:11:56) zoom in 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom in -489.2 1346.6
+\t (00:11:56) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:11:56) trapsize 65
+\i (00:11:56) zoom in 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom in -482.7 1349.3
+\i (00:11:56) trapsize 33
+\i (00:11:56) zoom out 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom out -474.3 1355.8
+\i (00:11:56) trapsize 65
+\i (00:11:56) zoom out 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom out -474.3 1355.9
+\t (00:11:56) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:56) trapsize 130
+\i (00:11:56) zoom out 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom out -442.2 1355.8
+\t (00:11:56) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:11:56) trapsize 261
+\i (00:11:56) zoom out 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom out 365.9 1156.2
+\i (00:11:56) trapsize 261
+\i (00:11:57) zoom in 1 
+\i (00:11:57) setwindow pcb
+\i (00:11:57) zoom in -369.3 1927.9
+\t (00:11:57) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:11:57) trapsize 130
+\i (00:11:57) zoom in 1 
+\i (00:11:57) setwindow pcb
+\i (00:11:57) zoom in -810.0 1954.0
+\t (00:11:57) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:11:57) trapsize 65
+\i (00:11:57) zoom in 1 
+\i (00:11:57) setwindow pcb
+\i (00:11:57) zoom in -804.9 1972.3
+\i (00:11:57) trapsize 33
+\i (00:11:58) roam y -96 
+\i (00:11:58) roam y -96
+\i (00:11:58) roam y -96 
+\i (00:11:58) roam y -96
+\i (00:11:58) roam y -96 
+\i (00:11:58) roam y -96
+\i (00:11:58) roam y -96 
+\i (00:11:58) roam y -96
+\i (00:11:59) roam y -96 
+\i (00:11:59) roam y -96
+\i (00:11:59) roam y -96 
+\i (00:11:59) roam y -96
+\i (00:11:59) roam y 96 
+\i (00:11:59) roam y 96
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out -276.9 2167.0
+\i (00:11:59) trapsize 65
+\i (00:12:00) prepopup -291.0 2247.8
+\i (00:12:01) pop dyn_option_select @:@Move 
+\i (00:12:01) move 
+\t (00:12:01) last pick:  -292.5 2246.4
+\t (00:12:01) last pick:  -417.3 2320.5
+\t (00:12:01) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:12:01) Pick new location for the element(s).
+\i (00:12:02) roam y 96 
+\i (00:12:02) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) zoom out 1 
+\i (00:12:03) setwindow pcb
+\i (00:12:03) zoom out -151.5 1090.0
+\t (00:12:03) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:12:03) trapsize 130
+\i (00:12:03) roam y 96 
+\i (00:12:03) roam y 96
+\i (00:12:03) zoom out 1 
+\i (00:12:03) setwindow pcb
+\i (00:12:03) zoom out 947.7 838.4
+\t (00:12:03) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:12:03) trapsize 261
+\i (00:12:04) pick grid 903.0 770.3
+\t (00:12:04) last pick:  904.8 772.2
+\i (00:12:05) generaledit 
+\i (00:12:06) prepopup 955.2 692.1
+\i (00:12:06) pop dyn_option_select @:@Move 
+\i (00:12:06) move 
+\t (00:12:06) last pick:  955.5 690.3
+\t (00:12:06) last pick:  904.8 772.2
+\t (00:12:06) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:12:06) Pick new location for the element(s).
+\i (00:12:07) zoom in 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom in 960.4 582.6
+\t (00:12:07) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:12:07) trapsize 130
+\i (00:12:07) zoom in 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom in -139.9 582.6
+\t (00:12:07) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:12:07) trapsize 65
+\i (00:12:07) zoom in 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom in -137.3 582.7
+\i (00:12:07) trapsize 33
+\i (00:12:09) pick grid 197.1 673.3
+\t (00:12:09) last pick:  198.9 674.7
+\i (00:12:09) generaledit 
+\i (00:12:13) prepopup 317.0 595.1
+\i (00:12:14) pop dyn_option_select @:@Move 
+\i (00:12:14) move 
+\t (00:12:15) last pick:  315.9 596.7
+\t (00:12:15) last pick:  198.9 674.7
+\t (00:12:15) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:12:15) Pick new location for the element(s).
+\i (00:12:15) pick grid 376.3 590.5
+\t (00:12:15) last pick:  374.4 588.9
+\i (00:12:15) generaledit 
+\i (00:12:15) zoom out 1 
+\i (00:12:15) setwindow pcb
+\i (00:12:15) zoom out 376.3 590.5
+\i (00:12:15) trapsize 65
+\i (00:12:16) zoom out 1 
+\i (00:12:16) setwindow pcb
+\i (00:12:16) zoom out 290.3 525.4
+\t (00:12:16) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:12:16) trapsize 130
+\i (00:12:16) zoom out 1 
+\i (00:12:16) setwindow pcb
+\i (00:12:16) zoom out 1748.2 525.4
+\t (00:12:16) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:12:16) trapsize 261
+\i (00:12:17) prepopup 501.5 493.9
+\i (00:12:18) pop dyn_option_select @:@Move 
+\i (00:12:18) move 
+\t (00:12:18) last pick:  503.1 495.3
+\t (00:12:18) last pick:  374.4 588.9
+\t (00:12:18) Moving U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P.
+\t (00:12:18) Pick new location for the element(s).
+\i (00:12:39) pick grid 840.5 697.3
+\t (00:12:39) last pick:  842.4 698.1
+\i (00:12:39) generaledit 
+\i (00:12:39) pick grid 2352.7 1672.4
+\t (00:12:39) last pick:  2351.7 1673.1
+\i (00:12:58) zoom in 1 
+\i (00:12:58) setwindow pcb
+\i (00:12:58) zoom in 1836.4 2094.8
+\t (00:12:58) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:12:58) trapsize 130
+\i (00:12:58) zoom in 1 
+\i (00:12:58) setwindow pcb
+\i (00:12:58) zoom in 290.3 2094.8
+\t (00:12:58) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:12:58) trapsize 65
+\i (00:12:59) zoom out 1 
+\i (00:12:59) setwindow pcb
+\i (00:12:59) zoom out 384.2 2097.5
+\t (00:12:59) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:12:59) trapsize 130
+\i (00:13:00) pick grid 2522.3 1943.6
+\t (00:13:00) last pick:  2523.3 1942.2
+\i (00:13:03) pick grid 1763.6 2115.7
+\t (00:13:03) last pick:  1762.8 2113.8
+\i (00:13:04) pick grid 2363.3 2014.0
+\t (00:13:04) last pick:  2363.4 2012.4
+\i (00:13:04) prepopup 1742.7 2107.9
+\i (00:13:05) pick grid 2558.9 1964.5
+\t (00:13:05) last pick:  2558.4 1965.6
+\i (00:13:07) prepopup 1841.8 2063.5
+\i (00:13:09) pop dyn_option_select @:@Move 
+\i (00:13:09) move 
+\t (00:13:09) last pick:  1840.8 2063.1
+\t (00:13:09) last pick:  1751.1 2121.6
+\t (00:13:09) Moving J1 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE.
+\t (00:13:09) Pick new location for the element(s).
+\i (00:13:15) prepopup 1714.0 1140.5
+\i (00:13:17) rotate 
+\t (00:13:17) Spin the element(s).
+\i (00:13:18) iangle -180.000
+\t (00:13:18) last angle:  180.000 Degrees
+\i (00:13:21) pick grid 1870.5 1150.9
+\t (00:13:21) last pick:  1872.0 1150.5
+\i (00:13:21) generaledit 
+\i (00:13:21) prepopup 1508.1 2136.6
+\i (00:13:23) pick grid 2313.8 2248.7
+\t (00:13:23) last pick:  2312.7 2250.3
+\i (00:13:24) prepopup 1534.1 2081.8
+\i (00:13:25) pop dyn_option_select @:@Move 
+\i (00:13:25) move 
+\t (00:13:25) last pick:  1532.7 2082.6
+\t (00:13:25) last pick:  1460.5 2124.2
+\t (00:13:25) Moving J3 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE.
+\t (00:13:25) Pick new location for the element(s).
+\i (00:13:27) prepopup 2350.3 1990.5
+\i (00:13:28) rotate 
+\t (00:13:28) Spin the element(s).
+\i (00:13:28) iangle -180.000
+\t (00:13:28) last angle:  180.000 Degrees
+\i (00:13:29) roam y 96 
+\i (00:13:29) roam y 96
+\i (00:13:29) roam y 96 
+\i (00:13:29) roam y 96
+\i (00:13:30) roam y 96 
+\i (00:13:30) roam y 96
+\i (00:13:30) roam y 96 
+\i (00:13:30) roam y 96
+\i (00:13:33) pick grid 1883.5 423.6
+\t (00:13:33) last pick:  1883.7 425.1
+\i (00:13:33) generaledit 
+\i (00:13:34) pick grid 2405.0 543.6
+\t (00:13:34) last pick:  2406.3 542.1
+\i (00:13:34) zoom out 1 
+\i (00:13:34) setwindow pcb
+\i (00:13:34) zoom out 2162.5 509.7
+\t (00:13:34) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:13:34) trapsize 261
+\i (00:13:34) zoom out 1 
+\i (00:13:34) setwindow pcb
+\i (00:13:34) zoom out 5570.1 937.2
+\i (00:13:34) trapsize 261
+\i (00:13:35) roam x -96 
+\i (00:13:36) roam x -96 
+\i (00:13:36) roam x -96 
+\i (00:13:36) zoom out 1 
+\i (00:13:36) setwindow pcb
+\i (00:13:36) zoom out 611.0 -335.2
+\i (00:13:36) trapsize 261
+\i (00:13:37) zoom in 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom in -150.3 -111.0
+\t (00:13:37) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:13:37) trapsize 130
+\i (00:13:37) zoom in 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom in -708.3 -56.2
+\t (00:13:37) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:13:37) trapsize 65
+\i (00:13:37) zoom in 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom in -705.7 1.2
+\i (00:13:37) trapsize 33
+\i (00:13:37) zoom out 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom out -627.6 110.2
+\i (00:13:37) trapsize 65
+\i (00:13:37) zoom out 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom out -622.3 112.7
+\t (00:13:37) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:13:37) trapsize 130
+\i (00:13:37) zoom out 1 
+\i (00:13:37) setwindow pcb
+\i (00:13:37) zoom out -379.6 112.7
+\t (00:13:37) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:13:37) trapsize 261
+\i (00:13:43) prepopup -113.8 1719.3
+\i (00:13:44) pop dyn_option_select @:@Move 
+\i (00:13:44) move 
+\t (00:13:44) last pick:  -113.1 1719.9
+\t (00:13:44) last pick:  -98.5 1711.5
+\t (00:13:44) Moving C7 / C_SMC0603_6.8P / SMC0603.
+\t (00:13:44) Pick new location for the element(s).
+\i (00:13:48) pick grid 2217.1 2079.2
+\t (00:13:48) last pick:  2215.2 2078.7
+\e (00:13:48) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:13:49) pick grid 2201.5 2042.6
+\t (00:13:49) last pick:  2199.6 2043.6
+\i (00:13:49) generaledit 
+\i (00:13:50) pick grid 2316.2 2277.3
+\t (00:13:50) last pick:  2316.6 2277.6
+\i (00:13:52) prepopup -119.0 1609.8
+\i (00:13:53) pop dyn_option_select @:@Move 
+\i (00:13:53) move 
+\t (00:13:53) last pick:  -120.9 1610.7
+\t (00:13:53) last pick:  -98.5 1633.0
+\t (00:13:53) Moving C6 / C_SMC0603_6.8P / SMC0603.
+\t (00:13:53) Pick new location for the element(s).
+\i (00:13:57) pick grid 2201.5 2225.2
+\t (00:13:57) last pick:  2199.6 2226.9
+\i (00:13:57) generaledit 
+\i (00:13:57) pick grid 2347.5 1510.8
+\t (00:13:57) last pick:  2347.8 1509.3
+\i (00:13:58) drag_start grid 2112.8 1881.0
+\i (00:13:59) drag_stop 2446.5 2272.1
+\i (00:13:59) prepopup 2222.3 2032.2
+\i (00:14:00) pop dyn_option_select @:@Move 
+\i (00:14:00) move 
+\t (00:14:00) last pick:  2223.0 2031.9
+\t (00:14:00) Moving C7 / C_SMC0603_6.8P / SMC0603.
+\t (00:14:00) Moving C6 / C_SMC0603_6.8P / SMC0603.
+\t (00:14:00) Pick new location for the element(s).
+\i (00:14:04) pick grid 2201.5 1750.6
+\t (00:14:04) last pick:  2199.6 1751.1
+\i (00:14:04) generaledit 
+\i (00:14:04) pick grid 2284.9 1469.0
+\t (00:14:04) last pick:  2285.4 1470.3
+\i (00:14:06) prepopup -124.2 1583.8
+\i (00:14:06) pop dyn_option_select @:@Move 
+\i (00:14:07) move 
+\t (00:14:07) last pick:  -124.8 1583.4
+\t (00:14:07) last pick:  -98.5 1554.5
+\t (00:14:07) Moving C15 / C_SMC0603_47N / SMC0603.
+\t (00:14:07) Pick new location for the element(s).
+\i (00:14:11) pick grid 2128.5 806.8
+\t (00:14:11) last pick:  2129.4 807.3
+\i (00:14:11) generaledit 
+\i (00:14:11) prepopup -869.9 1604.6
+\i (00:14:12) pop dyn_option_select @:@Move 
+\i (00:14:12) move 
+\t (00:14:12) last pick:  -869.7 1602.9
+\t (00:14:12) last pick:  -885.3 1599.0
+\t (00:14:12) Moving C8 / C_SMC0603_56P / SMC0603.
+\t (00:14:12) Pick new location for the element(s).
+\i (00:14:17) pick grid 2185.8 1583.8
+\t (00:14:17) last pick:  2184.0 1583.4
+\i (00:14:17) generaledit 
+\i (00:14:18) pick grid 2404.8 1218.7
+\t (00:14:18) last pick:  2406.3 1216.8
+\i (00:14:19) prepopup -1109.8 1620.3
+\i (00:14:20) pop dyn_option_select @:@Move 
+\i (00:14:20) move 
+\t (00:14:20) last pick:  -1111.5 1618.5
+\t (00:14:20) last pick:  -1114.5 1613.5
+\t (00:14:20) Moving L1 / L_0_SMC0603_56N / SMC0603.
+\t (00:14:20) Pick new location for the element(s).
+\i (00:14:23) pick grid 2498.7 2329.5
+\t (00:14:23) last pick:  2499.9 2328.3
+\e (00:14:23) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:14:24) pick grid 2430.9 2162.6
+\t (00:14:24) last pick:  2429.7 2164.5
+\e (00:14:24) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:14:25) pick grid 2378.8 2146.9
+\t (00:14:25) last pick:  2379.0 2145.0
+\e (00:14:25) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:14:26) pick grid 2399.6 2058.3
+\t (00:14:26) last pick:  2398.5 2059.2
+\e (00:14:26) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:14:29) pick grid 2373.5 2094.8
+\t (00:14:29) last pick:  2375.1 2094.3
+\e (00:14:29) ERROR(SPMHA1-150): Symbol does not fit into the drawing ... reposition the symbol.
+\i (00:14:33) pick grid 1388.0 -189.2
+\t (00:14:33) last pick:  1388.4 -191.1
+\i (00:14:33) generaledit 
+\i (00:14:34) pick grid 1826.0 -340.4
+\t (00:14:34) last pick:  1825.2 -339.3
+\i (00:14:36) prepopup -1078.5 1516.0
+\i (00:14:37) pop dyn_option_select @:@Move 
+\i (00:14:37) move 
+\t (00:14:37) last pick:  -1080.3 1517.1
+\t (00:14:37) last pick:  -1114.5 1535.0
+\t (00:14:37) Moving L8 / L_0_SMC0603_56N / SMC0603.
+\t (00:14:37) Pick new location for the element(s).
+\i (00:14:39) pick grid 1122.0 -220.5
+\t (00:14:39) last pick:  1123.2 -222.3
+\i (00:14:39) generaledit 
+\i (00:14:40) prepopup -1088.9 1463.8
+\i (00:14:41) pop dyn_option_select @:@Move 
+\i (00:14:41) move 
+\t (00:14:41) last pick:  -1088.1 1462.5
+\t (00:14:41) last pick:  -1114.5 1456.5
+\t (00:14:41) Moving L10 / L_0_SMC0603_21N / SMC0603.
+\t (00:14:41) Pick new location for the element(s).
+\i (00:14:43) pick grid 824.8 -215.3
+\t (00:14:43) last pick:  822.9 -214.5
+\i (00:14:43) generaledit 
+\i (00:14:44) prepopup -1104.6 1370.0
+\i (00:14:44) pop dyn_option_select @:@Move 
+\i (00:14:44) move 
+\t (00:14:45) last pick:  -1103.7 1368.9
+\t (00:14:45) last pick:  -1114.5 1378.0
+\t (00:14:45) Moving L7 / L_0_SMC0603_21N / SMC0603.
+\t (00:14:45) Pick new location for the element(s).
+\i (00:14:46) pick grid 517.1 -257.0
+\t (00:14:46) last pick:  518.7 -257.4
+\i (00:14:46) generaledit 
+\i (00:14:47) pick grid -291.1 -465.6
+\t (00:14:47) last pick:  -292.5 -464.1
+\i (00:14:48) prepopup -1099.4 1281.3
+\i (00:14:48) pop dyn_option_select @:@Move 
+\i (00:14:48) move 
+\t (00:14:48) last pick:  -1099.8 1283.1
+\t (00:14:48) last pick:  -1114.5 1299.5
+\t (00:14:48) Moving L11 / L_0_SMC0603_39N / SMC0603.
+\t (00:14:48) Pick new location for the element(s).
+\i (00:14:50) pick grid 141.7 -298.7
+\t (00:14:50) last pick:  140.4 -300.3
+\i (00:14:50) generaledit 
+\i (00:14:50) pick grid -14.7 -773.2
+\t (00:14:50) last pick:  -15.6 -772.2
+\i (00:14:52) prepopup -1099.4 1265.7
+\i (00:14:52) pop dyn_option_select @:@Move 
+\i (00:14:52) move 
+\t (00:14:53) last pick:  -1099.8 1267.5
+\t (00:14:53) last pick:  -1114.5 1221.0
+\t (00:14:53) Moving L6 / L_0_SMC0603_39N / SMC0603.
+\t (00:14:53) Pick new location for the element(s).
+\i (00:14:54) pick grid -166.0 -314.3
+\t (00:14:54) last pick:  -167.7 -315.9
+\i (00:14:55) generaledit 
+\i (00:14:56) prepopup -1099.4 1161.4
+\i (00:14:56) pop dyn_option_select @:@Move 
+\i (00:14:56) move 
+\t (00:14:56) last pick:  -1099.8 1162.2
+\t (00:14:56) last pick:  -1114.5 1142.5
+\t (00:14:56) Moving L12 / L_0_SMC0603_18N / SMC0603.
+\t (00:14:56) Pick new location for the element(s).
+\i (00:14:58) pick grid -452.8 -324.8
+\t (00:14:58) last pick:  -452.4 -323.7
+\i (00:14:58) generaledit 
+\i (00:14:58) pick grid -750.0 775.5
+\t (00:14:58) last pick:  -748.8 776.1
+\i (00:15:00) prepopup -1073.3 1072.7
+\i (00:15:01) pop dyn_option_select @:@Move 
+\i (00:15:01) move 
+\t (00:15:01) last pick:  -1072.5 1072.5
+\t (00:15:01) last pick:  -1114.5 1064.0
+\t (00:15:01) Moving L5 / L_0_SMC0603_18N / SMC0603.
+\t (00:15:01) Pick new location for the element(s).
+\i (00:15:02) pick grid -697.9 -345.6
+\t (00:15:02) last pick:  -698.1 -347.1
+\i (00:15:02) generaledit 
+\i (00:15:03) pick grid -525.8 55.9
+\t (00:15:03) last pick:  -526.5 54.6
+\i (00:15:03) prepopup -1083.7 1004.9
+\i (00:15:04) pop dyn_option_select @:@Move 
+\i (00:15:04) move 
+\t (00:15:04) last pick:  -1084.2 1006.2
+\t (00:15:04) last pick:  -1151.0 980.0
+\t (00:15:04) Moving L13 / L_0_SMC0805_BLM21PG221SN1D / SMC0805.
+\t (00:15:04) Pick new location for the element(s).
+\i (00:15:09) zoom in 1 
+\i (00:15:09) setwindow pcb
+\i (00:15:09) zoom in 334.6 1166.6
+\t (00:15:09) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:15:09) trapsize 130
+\i (00:15:09) zoom in 1 
+\i (00:15:09) setwindow pcb
+\i (00:15:09) zoom in -173.8 1216.2
+\t (00:15:09) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:15:09) trapsize 65
+\i (00:15:18) pick grid 329.4 1190.2
+\t (00:15:18) last pick:  327.6 1189.5
+\i (00:15:18) generaledit 
+\i (00:15:19) pick grid 445.4 977.7
+\t (00:15:19) last pick:  444.6 978.9
+\i (00:15:20) zoom out 1 
+\i (00:15:20) setwindow pcb
+\i (00:15:20) zoom out 337.2 1009.0
+\t (00:15:20) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:15:20) trapsize 130
+\i (00:15:21) zoom out 1 
+\i (00:15:21) setwindow pcb
+\i (00:15:21) zoom out -885.6 1175.8
+\t (00:15:21) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:15:21) trapsize 261
+\i (00:15:22) prepopup -1104.6 905.9
+\i (00:15:23) pop dyn_option_select @:@Move 
+\i (00:15:23) move 
+\t (00:15:23) last pick:  -1103.7 904.8
+\t (00:15:23) last pick:  -1114.5 896.5
+\t (00:15:23) Moving L2 / L_0_SMC0603_27N / SMC0603.
+\t (00:15:23) Pick new location for the element(s).
+\i (00:15:26) pick grid -906.4 -387.4
+\t (00:15:26) last pick:  -904.8 -386.1
+\i (00:15:26) generaledit 
+\i (00:15:26) pick grid -750.0 123.7
+\t (00:15:26) last pick:  -748.8 124.8
+\i (00:15:29) prepopup -1115.0 827.6
+\i (00:15:30) pop dyn_option_select @:@Move 
+\i (00:15:30) move 
+\t (00:15:30) last pick:  -1115.4 826.8
+\t (00:15:30) last pick:  -1114.5 818.0
+\t (00:15:30) Moving L3 / L_0_SMC0603_27N / SMC0603.
+\t (00:15:30) Pick new location for the element(s).
+\i (00:15:34) pick grid -890.8 -137.1
+\t (00:15:34) last pick:  -889.2 -136.5
+\i (00:15:34) generaledit 
+\i (00:15:34) prepopup -1062.9 712.9
+\i (00:15:35) pop dyn_option_select @:@Move 
+\i (00:15:35) move 
+\t (00:15:35) last pick:  -1064.7 713.7
+\t (00:15:35) last pick:  -1114.5 739.5
+\t (00:15:35) Moving L4 / L_0_SMC0603_15N / SMC0603.
+\t (00:15:35) Pick new location for the element(s).
+\i (00:15:37) pick grid -687.4 -147.5
+\t (00:15:37) last pick:  -686.4 -148.2
+\i (00:15:37) generaledit 
+\i (00:15:37) pick grid -697.9 509.6
+\t (00:15:37) last pick:  -698.1 510.9
+\i (00:15:38) prepopup -1047.2 681.6
+\i (00:15:39) pop dyn_option_select @:@Move 
+\i (00:15:39) move 
+\t (00:15:39) last pick:  -1049.1 682.5
+\t (00:15:39) last pick:  -1114.5 661.0
+\t (00:15:39) Moving L9 / L_0_SMC0603_15N / SMC0603.
+\t (00:15:39) Pick new location for the element(s).
+\i (00:15:43) pick grid -1104.6 -163.1
+\t (00:15:43) last pick:  -1103.7 -163.8
+\i (00:15:43) generaledit 
+\i (00:15:44) prepopup -1036.8 593.0
+\i (00:15:45) pop dyn_option_select @:@Move 
+\i (00:15:45) move 
+\t (00:15:45) last pick:  -1037.4 592.8
+\t (00:15:45) last pick:  -1114.5 582.5
+\t (00:15:45) Moving R1 / R_SMC0603_56K / SMC0603.
+\t (00:15:45) Pick new location for the element(s).
+\i (00:15:47) pick grid -1099.4 -408.2
+\t (00:15:47) last pick:  -1099.8 -409.5
+\i (00:15:47) generaledit 
+\i (00:15:48) pick grid -744.8 274.9
+\t (00:15:48) last pick:  -744.9 273.0
+\i (00:15:48) prepopup -1062.9 530.4
+\i (00:15:49) pop dyn_option_select @:@Move 
+\i (00:15:49) move 
+\t (00:15:49) last pick:  -1064.7 530.4
+\t (00:15:49) last pick:  -1114.5 504.0
+\t (00:15:49) Moving R2 / R_SMC0603_0 / SMC0603.
+\t (00:15:49) Pick new location for the element(s).
+\i (00:15:52) pick grid -1099.4 -616.8
+\t (00:15:52) last pick:  -1099.8 -616.2
+\i (00:15:52) generaledit 
+\i (00:15:52) pick grid -692.6 -752.4
+\t (00:15:52) last pick:  -694.2 -752.7
+\i (00:15:53) prepopup -1047.2 441.8
+\i (00:15:54) pop dyn_option_select @:@Move 
+\i (00:15:54) move 
+\t (00:15:54) last pick:  -1049.1 440.7
+\t (00:15:54) last pick:  -1114.5 425.5
+\t (00:15:54) Moving R3 / R_SMC0603_18 / SMC0603.
+\t (00:15:54) Pick new location for the element(s).
+\i (00:15:56) pick grid -1104.6 -804.5
+\t (00:15:56) last pick:  -1103.7 -803.4
+\i (00:15:56) generaledit 
+\i (00:15:56) pick grid -807.4 -841.0
+\t (00:15:56) last pick:  -807.3 -842.4
+\i (00:15:58) prepopup -1073.3 332.3
+\i (00:15:59) pop dyn_option_select @:@Move 
+\i (00:15:59) move 
+\t (00:15:59) last pick:  -1072.5 331.5
+\t (00:15:59) last pick:  -1114.5 347.0
+\t (00:15:59) Moving C5 / C_SMC0603_5.1P / SMC0603.
+\t (00:15:59) Pick new location for the element(s).
+\i (00:16:13) pick grid 2175.4 2120.9
+\t (00:16:13) last pick:  2176.2 2121.6
+\i (00:16:13) generaledit 
+\i (00:16:14) pick grid 1925.1 2146.9
+\t (00:16:14) last pick:  1926.6 2145.0
+\i (00:16:16) prepopup -113.8 1474.3
+\i (00:16:17) pop dyn_option_select @:@Move 
+\i (00:16:17) move 
+\t (00:16:17) last pick:  -113.1 1474.2
+\t (00:16:17) last pick:  -98.5 1476.0
+\t (00:16:17) Moving C14 / C_SMC0603_47N / SMC0603.
+\t (00:16:17) Pick new location for the element(s).
+\i (00:16:21) pick grid -942.9 1662.0
+\t (00:16:21) last pick:  -943.8 1661.4
+\i (00:16:22) generaledit 
+\i (00:16:22) prepopup -103.4 1416.9
+\i (00:16:23) pop dyn_option_select @:@Move 
+\i (00:16:23) move 
+\t (00:16:23) last pick:  -105.3 1415.7
+\t (00:16:23) last pick:  -98.5 1397.5
+\t (00:16:23) Moving C18 / C_SMC0603_47N / SMC0603.
+\t (00:16:23) Pick new location for the element(s).
+\i (00:16:24) pick grid -927.3 1432.5
+\t (00:16:24) last pick:  -928.2 1431.3
+\i (00:16:24) generaledit 
+\i (00:16:25) prepopup -108.6 1323.0
+\i (00:16:25) pop dyn_option_select @:@Move 
+\i (00:16:25) move 
+\t (00:16:25) last pick:  -109.2 1322.1
+\t (00:16:25) last pick:  -98.5 1319.0
+\t (00:16:25) Moving C20 / C_SMC0603_47N / SMC0603.
+\t (00:16:25) Pick new location for the element(s).
+\i (00:16:26) pick grid -948.2 1203.1
+\t (00:16:26) last pick:  -947.7 1201.2
+\i (00:16:27) generaledit 
+\i (00:16:27) pick grid -718.7 890.2
+\t (00:16:27) last pick:  -717.6 889.2
+\i (00:16:28) prepopup -87.7 1270.9
+\i (00:16:29) pop dyn_option_select @:@Move 
+\i (00:16:29) move 
+\t (00:16:29) last pick:  -85.8 1271.4
+\t (00:16:29) last pick:  -98.5 1240.5
+\t (00:16:29) Moving C21 / C_SMC0603_47N / SMC0603.
+\t (00:16:29) Pick new location for the element(s).
+\i (00:16:31) pick grid -942.9 1004.9
+\t (00:16:31) last pick:  -943.8 1006.2
+\i (00:16:31) generaledit 
+\i (00:16:32) pick grid -869.9 791.1
+\t (00:16:32) last pick:  -869.7 791.7
+\i (00:16:32) prepopup -98.2 1161.4
+\i (00:16:33) pop dyn_option_select @:@Move 
+\i (00:16:33) move 
+\t (00:16:33) last pick:  -97.5 1162.2
+\t (00:16:33) last pick:  -98.5 1162.0
+\t (00:16:33) Moving C22 / C_SMC0603_47N / SMC0603.
+\t (00:16:33) Pick new location for the element(s).
+\i (00:16:38) pick grid -937.7 812.0
+\t (00:16:38) last pick:  -936.0 811.2
+\i (00:16:38) generaledit 
+\i (00:16:39) pick grid -635.3 493.9
+\t (00:16:39) last pick:  -635.7 495.3
+\i (00:16:40) prepopup -108.6 1104.0
+\i (00:16:41) pop dyn_option_select @:@Move 
+\i (00:16:41) move 
+\t (00:16:41) last pick:  -109.2 1103.7
+\t (00:16:41) last pick:  -98.5 1083.5
+\t (00:16:41) Moving C19 / C_SMC0603_47N / SMC0603.
+\t (00:16:41) Pick new location for the element(s).
+\i (00:16:46) pick grid -557.1 1964.4
+\t (00:16:46) last pick:  -557.7 1965.6
+\i (00:16:46) generaledit 
+\i (00:16:47) pick grid -426.7 1239.6
+\t (00:16:47) last pick:  -425.1 1240.2
+\i (00:16:48) prepopup -880.4 1187.5
+\i (00:16:49) pop dyn_option_select @:@Move 
+\i (00:16:49) move 
+\t (00:16:50) last pick:  -881.4 1185.6
+\t (00:16:50) last pick:  -947.7 1201.2
+\t (00:16:50) Moving C20 / C_SMC0603_47N / SMC0603.
+\t (00:16:50) Pick new location for the element(s).
+\i (00:16:53) pick grid -551.8 1781.9
+\t (00:16:53) last pick:  -549.9 1782.3
+\i (00:16:53) generaledit 
+\i (00:16:53) pick grid -557.1 1343.9
+\t (00:16:53) last pick:  -557.7 1345.5
+\i (00:16:54) prepopup -890.8 984.1
+\i (00:16:55) pop dyn_option_select @:@Move 
+\i (00:16:55) move 
+\t (00:16:55) last pick:  -889.2 982.8
+\t (00:16:55) last pick:  -943.8 1006.2
+\t (00:16:55) Moving C21 / C_SMC0603_47N / SMC0603.
+\t (00:16:55) Pick new location for the element(s).
+\i (00:17:00) pick grid -541.4 1594.2
+\t (00:17:00) last pick:  -542.1 1595.1
+\i (00:17:00) generaledit 
+\i (00:17:01) pick grid -562.3 1151.0
+\t (00:17:01) last pick:  -561.6 1150.5
+\i (00:17:02) prepopup -108.6 1020.6
+\i (00:17:03) pop dyn_option_select @:@Move 
+\i (00:17:03) move 
+\t (00:17:03) last pick:  -109.2 1021.8
+\t (00:17:03) last pick:  -98.5 1005.0
+\t (00:17:03) Moving C13 / C_SMC0603_6.8P / SMC0603.
+\t (00:17:03) Pick new location for the element(s).
+\i (00:17:08) pick grid -551.8 1380.4
+\t (00:17:08) last pick:  -549.9 1380.6
+\i (00:17:08) generaledit 
+\i (00:17:08) pick grid -682.2 1051.9
+\t (00:17:08) last pick:  -682.5 1053.0
+\i (00:17:10) zoom in 1 
+\i (00:17:10) setwindow pcb
+\i (00:17:10) zoom in 438.9 1234.4
+\t (00:17:10) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:17:10) trapsize 130
+\i (00:17:10) zoom in 1 
+\i (00:17:10) setwindow pcb
+\i (00:17:10) zoom in -405.8 1234.4
+\t (00:17:10) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:17:10) trapsize 65
+\i (00:17:10) zoom out 1 
+\i (00:17:10) setwindow pcb
+\i (00:17:10) zoom out 63.4 1225.3
+\t (00:17:10) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:17:10) trapsize 130
+\i (00:17:11) zoom in 1 
+\i (00:17:11) setwindow pcb
+\i (00:17:11) zoom in 561.6 1207.1
+\t (00:17:11) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:17:11) trapsize 65
+\i (00:17:12) prepopup 424.7 1183.6
+\i (00:17:13) pick grid 757.1 1320.5
+\t (00:17:13) last pick:  756.6 1322.1
+\i (00:17:15) prepopup 394.7 1183.6
+\i (00:17:16) pop dyn_option_select @:@Move 
+\i (00:17:16) move 
+\t (00:17:16) last pick:  393.9 1181.7
+\t (00:17:16) last pick:  327.6 1189.5
+\t (00:17:16) Moving L13 / L_0_SMC0805_BLM21PG221SN1D / SMC0805.
+\t (00:17:16) Pick new location for the element(s).
+\i (00:17:37) pick grid 501.6 1301.0
+\t (00:17:37) last pick:  503.1 1302.6
+\i (00:17:37) generaledit 
+\i (00:17:38) pick grid 519.9 1114.5
+\t (00:17:38) last pick:  518.7 1115.4
+\i (00:17:38) zoom out 1 
+\i (00:17:38) setwindow pcb
+\i (00:17:38) zoom out 510.7 1134.1
+\t (00:17:38) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:17:38) trapsize 130
+\i (00:17:39) zoom out 1 
+\i (00:17:39) setwindow pcb
+\i (00:17:39) zoom out -309.3 1196.7
+\t (00:17:39) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:17:39) trapsize 261
+\i (00:17:43) prepopup -98.2 937.2
+\i (00:17:44) pop dyn_option_select @:@Move 
+\i (00:17:44) move 
+\t (00:17:44) last pick:  -97.5 936.0
+\t (00:17:44) last pick:  -98.5 926.5
+\t (00:17:44) Moving C23 / C_SMC0603_47N / SMC0603.
+\t (00:17:44) Pick new location for the element(s).
+\i (00:17:53) pick grid -932.5 619.1
+\t (00:17:53) last pick:  -932.1 620.1
+\i (00:17:53) generaledit 
+\i (00:17:53) pick grid -421.5 916.3
+\t (00:17:53) last pick:  -421.2 916.5
+\i (00:17:54) prepopup -463.2 1396.0
+\i (00:17:55) pop dyn_option_select @:@Move 
+\i (00:17:55) move 
+\t (00:17:55) last pick:  -464.1 1396.2
+\t (00:17:55) last pick:  -549.9 1380.6
+\t (00:17:55) Moving C13 / C_SMC0603_6.8P / SMC0603.
+\t (00:17:55) Pick new location for the element(s).
+\i (00:17:56) pick grid -958.6 1156.2
+\t (00:17:56) last pick:  -959.4 1154.4
+\i (00:17:56) generaledit 
+\i (00:17:56) pick grid -588.3 1104.0
+\t (00:17:56) last pick:  -588.9 1103.7
+\i (00:17:57) drag_start grid -1036.8 436.6
+\i (00:17:58) drag_stop -567.5 963.2
+\i (00:17:58) prepopup -864.7 801.6
+\i (00:17:59) pop dyn_option_select @:@Move 
+\i (00:17:59) move 
+\t (00:17:59) last pick:  -865.8 803.4
+\t (00:17:59) Moving C23 / C_SMC0603_47N / SMC0603.
+\t (00:17:59) Moving C22 / C_SMC0603_47N / SMC0603.
+\t (00:17:59) Pick new location for the element(s).
+\i (00:18:02) pick grid -468.4 1406.5
+\t (00:18:02) last pick:  -468.0 1407.9
+\i (00:18:02) generaledit 
+\i (00:18:02) pick grid -265.0 1390.8
+\t (00:18:02) last pick:  -265.2 1392.3
+\i (00:18:10) prepopup -869.9 1437.8
+\i (00:18:11) pop dyn_option_select @:@Move 
+\i (00:18:11) move 
+\t (00:18:11) last pick:  -869.7 1439.1
+\t (00:18:11) last pick:  -928.2 1431.3
+\t (00:18:11) Moving C18 / C_SMC0603_47N / SMC0603.
+\t (00:18:11) Pick new location for the element(s).
+\i (00:18:14) pick grid -546.6 2152.2
+\t (00:18:14) last pick:  -546.0 2152.8
+\i (00:18:14) generaledit 
+\i (00:18:14) pick grid -358.9 2204.3
+\t (00:18:14) last pick:  -358.8 2203.5
+\i (00:18:20) prepopup -61.7 874.6
+\i (00:18:21) pop dyn_option_select @:@Move 
+\i (00:18:21) move 
+\t (00:18:21) last pick:  -62.4 873.6
+\t (00:18:21) last pick:  -98.5 848.0
+\t (00:18:21) Moving C26 / C_SMC0603_47N / SMC0603.
+\t (00:18:21) Pick new location for the element(s).
+\i (00:18:28) pick grid -1000.3 707.7
+\t (00:18:28) last pick:  -998.4 705.9
+\i (00:18:28) generaledit 
+\i (00:18:29) prepopup -82.5 765.1
+\i (00:18:29) pop dyn_option_select @:@Move 
+\i (00:18:29) move 
+\t (00:18:29) last pick:  -81.9 764.4
+\t (00:18:29) last pick:  -98.5 769.5
+\t (00:18:29) Moving C17 / C_SMC0603_220N / SMC0603.
+\t (00:18:29) Pick new location for the element(s).
+\i (00:18:34) pick grid -546.6 2339.9
+\t (00:18:34) last pick:  -546.0 2340.0
+\i (00:18:34) generaledit 
+\i (00:18:35) pick grid -525.8 608.6
+\t (00:18:35) last pick:  -526.5 608.4
+\i (00:18:36) prepopup -98.2 692.1
+\i (00:18:36) pop dyn_option_select @:@Move 
+\i (00:18:36) move 
+\t (00:18:36) last pick:  -97.5 690.3
+\t (00:18:36) last pick:  -98.5 691.0
+\t (00:18:36) Moving C2 / C_SMC0603_1.5N / SMC0603.
+\t (00:18:36) Pick new location for the element(s).
+\i (00:18:41) pick grid 1680.0 2319.0
+\t (00:18:41) last pick:  1680.9 2320.5
+\i (00:18:41) generaledit 
+\i (00:18:42) prepopup -108.6 629.5
+\i (00:18:45) pop dyn_option_select @:@Move 
+\i (00:18:45) move 
+\t (00:18:45) last pick:  -109.2 627.9
+\t (00:18:45) last pick:  -98.5 612.5
+\t (00:18:45) Moving C27 / C_SMC0603_100N / SMC0603.
+\t (00:18:45) Pick new location for the element(s).
+\i (00:18:55) pick grid -1000.3 530.4
+\t (00:18:55) last pick:  -998.4 530.4
+\i (00:18:55) generaledit 
+\i (00:18:55) pick grid -557.1 858.9
+\t (00:18:55) last pick:  -557.7 858.0
+\i (00:18:56) prepopup -46.0 535.6
+\i (00:18:57) pop dyn_option_select @:@Move 
+\i (00:18:57) move 
+\t (00:18:57) last pick:  -46.8 534.3
+\t (00:18:57) last pick:  -98.5 534.0
+\t (00:18:57) Moving C28 / C_SMC0603_2.2U / SMC0603.
+\t (00:18:57) Pick new location for the element(s).
+\i (00:19:08) pick grid -1000.3 332.3
+\t (00:19:08) last pick:  -998.4 331.5
+\i (00:19:08) generaledit 
+\i (00:19:10) prepopup -1088.9 274.9
+\i (00:19:11) pop dyn_option_select @:@Move 
+\i (00:19:11) move 
+\t (00:19:11) last pick:  -1088.1 273.0
+\t (00:19:11) last pick:  -1114.5 268.5
+\t (00:19:11) Moving C1 / C_SMC0603_22P / SMC0603.
+\t (00:19:11) Pick new location for the element(s).
+\i (00:19:12) pick grid -598.8 394.8
+\t (00:19:12) last pick:  -600.6 393.9
+\i (00:19:12) generaledit 
+\i (00:19:15) prepopup -541.4 420.9
+\i (00:19:16) pop dyn_option_select @:@Move 
+\i (00:19:16) move 
+\t (00:19:16) last pick:  -542.1 421.2
+\t (00:19:16) last pick:  -600.6 393.9
+\t (00:19:16) Moving C1 / C_SMC0603_22P / SMC0603.
+\t (00:19:16) Pick new location for the element(s).
+\i (00:19:19) pick grid 1685.2 2491.1
+\t (00:19:19) last pick:  1684.8 2492.1
+\i (00:19:19) generaledit 
+\i (00:19:19) pick grid 1429.7 2334.7
+\t (00:19:19) last pick:  1431.3 2336.1
+\i (00:19:21) prepopup -98.2 452.2
+\i (00:19:22) pop dyn_option_select @:@Move 
+\i (00:19:22) move 
+\t (00:19:22) last pick:  -97.5 452.4
+\t (00:19:22) last pick:  -98.5 455.5
+\t (00:19:22) Moving C3 / C_SMC0603_5.1P / SMC0603.
+\t (00:19:22) Pick new location for the element(s).
+\i (00:19:29) pick grid 1685.2 2152.2
+\t (00:19:29) last pick:  1684.8 2152.8
+\i (00:19:29) generaledit 
+\i (00:19:29) pick grid 1325.4 2225.2
+\t (00:19:29) last pick:  1326.0 2226.9
+\i (00:19:32) prepopup -82.5 368.8
+\i (00:19:32) pop dyn_option_select @:@Move 
+\i (00:19:32) move 
+\t (00:19:32) last pick:  -81.9 370.5
+\t (00:19:32) last pick:  -98.5 377.0
+\t (00:19:32) Moving C4 / C_SMC0603_5.1P / SMC0603.
+\t (00:19:32) Pick new location for the element(s).
+\i (00:19:36) pick grid 2170.2 2293.0
+\t (00:19:36) last pick:  2168.4 2293.2
+\i (00:19:36) generaledit 
+\i (00:19:37) pick grid 2404.8 2214.7
+\t (00:19:37) last pick:  2406.3 2215.2
+\i (00:19:39) prepopup -113.8 327.0
+\i (00:19:40) pop dyn_option_select @:@Move 
+\i (00:19:40) move 
+\t (00:19:40) last pick:  -113.1 327.6
+\t (00:19:40) last pick:  -98.5 298.5
+\t (00:19:40) Moving C16 / C_SMC0603_10N / SMC0603.
+\t (00:19:40) Pick new location for the element(s).
+\i (00:19:52) pick grid -546.6 2517.2
+\t (00:19:52) last pick:  -546.0 2515.5
+\i (00:19:52) generaledit 
+\i (00:19:53) pick grid -463.2 561.7
+\t (00:19:53) last pick:  -464.1 561.6
+\i (00:19:53) prepopup -87.7 233.2
+\i (00:19:54) pop dyn_option_select @:@Move 
+\i (00:19:54) move 
+\t (00:19:54) last pick:  -85.8 234.0
+\t (00:19:54) last pick:  -98.5 220.0
+\t (00:19:54) Moving C24 / C_SMC0603_47N / SMC0603.
+\t (00:19:54) Pick new location for the element(s).
+\i (00:20:01) pick grid -598.8 702.5
+\t (00:20:01) last pick:  -600.6 702.0
+\i (00:20:01) generaledit 
+\i (00:20:02) prepopup -119.0 118.5
+\i (00:20:03) pop dyn_option_select @:@Move 
+\i (00:20:03) move 
+\t (00:20:03) last pick:  -120.9 117.0
+\t (00:20:03) last pick:  -98.5 141.5
+\t (00:20:03) Moving C9 / C_SMC0603_100P / SMC0603.
+\t (00:20:03) Pick new location for the element(s).
+\i (00:20:13) pick grid 2191.0 1416.9
+\t (00:20:13) last pick:  2191.8 1415.7
+\i (00:20:13) generaledit 
+\i (00:20:13) pick grid 2337.0 1140.5
+\t (00:20:13) last pick:  2336.1 1138.8
+\i (00:20:50) prepopup -56.5 50.7
+\i (00:20:51) pop dyn_option_select @:@Move 
+\i (00:20:51) move 
+\t (00:20:51) last pick:  -54.6 50.7
+\t (00:20:51) last pick:  -98.5 63.0
+\t (00:20:51) Moving C12 / C_SMC0603_6.8P / SMC0603.
+\t (00:20:51) Pick new location for the element(s).
+\i (00:21:03) pick grid 329.4 -814.9
+\t (00:21:03) last pick:  327.6 -815.1
+\i (00:21:03) generaledit 
+\i (00:21:08) drag_start grid -1073.3 1031.0
+\i (00:21:09) drag_stop -760.4 2454.6
+\i (00:21:09) prepopup -953.4 2371.2
+\i (00:21:10) pop dyn_option_select @:@Move 
+\i (00:21:10) move 
+\t (00:21:10) last pick:  -951.6 2371.2
+\t (00:21:10) Moving C13 / C_SMC0603_6.8P / SMC0603.
+\t (00:21:10) Moving C14 / C_SMC0603_47N / SMC0603.
+\t (00:21:10) Moving C10 / C_SMC0603_10N / SMC0603.
+\t (00:21:10) Moving C25 / C_SMC0603_47N / SMC0603.
+\t (00:21:10) Moving C11 / C_SMC0603_39P / SMC0603.
+\t (00:21:10) Pick new location for the element(s).
+\i (00:21:12) pick grid -244.2 2214.7
+\t (00:21:12) last pick:  -245.7 2215.2
+\i (00:21:12) generaledit 
+\i (00:21:12) pick grid 131.3 2459.8
+\t (00:21:12) last pick:  132.6 2460.9
+\i (00:21:14) drag_start grid 1591.4 2042.6
+\i (00:21:15) drag_stop 1904.2 2585.0
+\i (00:21:16) prepopup 1726.9 2496.3
+\i (00:21:16) pop dyn_option_select @:@Move 
+\i (00:21:16) move 
+\t (00:21:16) last pick:  1727.7 2496.0
+\t (00:21:16) Moving C3 / C_SMC0603_5.1P / SMC0603.
+\t (00:21:16) Moving C2 / C_SMC0603_1.5N / SMC0603.
+\t (00:21:16) Moving C1 / C_SMC0603_22P / SMC0603.
+\t (00:21:16) Pick new location for the element(s).
+\i (00:21:22) pick grid -1125.4 2605.8
+\t (00:21:22) last pick:  -1127.1 2605.2
+\i (00:21:22) generaledit 
+\i (00:21:22) pick grid -969.0 1802.8
+\t (00:21:22) last pick:  -967.2 1801.8
+\i (00:21:24) drag_start grid 2092.0 1224.0
+\i (00:21:24) drag_stop 2446.5 2355.5
+\i (00:21:25) prepopup 2206.7 2287.7
+\i (00:21:25) pop dyn_option_select @:@Move 
+\i (00:21:25) move 
+\t (00:21:25) last pick:  2207.4 2289.3
+\t (00:21:25) Moving C9 / C_SMC0603_100P / SMC0603.
+\t (00:21:25) Moving C8 / C_SMC0603_56P / SMC0603.
+\t (00:21:25) Moving C7 / C_SMC0603_6.8P / SMC0603.
+\t (00:21:25) Moving C6 / C_SMC0603_6.8P / SMC0603.
+\t (00:21:25) Moving C5 / C_SMC0603_5.1P / SMC0603.
+\t (00:21:25) Moving C4 / C_SMC0603_5.1P / SMC0603.
+\t (00:21:25) Pick new location for the element(s).
+\i (00:21:29) pick grid -1130.7 2084.4
+\t (00:21:29) last pick:  -1131.0 2082.6
+\i (00:21:29) generaledit 
+\i (00:21:29) pick grid -885.6 2173.0
+\t (00:21:29) last pick:  -885.3 2172.3
+\i (00:21:32) zoom in 1 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) zoom in 673.6 1416.9
+\t (00:21:32) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:21:32) trapsize 130
+\i (00:21:33) zoom in 1 
+\i (00:21:33) setwindow pcb
+\i (00:21:33) zoom in -288.5 1416.9
+\t (00:21:33) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:21:33) trapsize 65
+\i (00:21:36) prepopup 600.6 1289.2
+\i (00:21:37) pop dyn_option_select @:@Move 
+\i (00:21:37) move 
+\t (00:21:37) last pick:  600.6 1290.9
+\t (00:21:37) last pick:  503.1 1302.6
+\t (00:21:37) Moving L13 / L_0_SMC0805_BLM21PG221SN1D / SMC0805.
+\t (00:21:37) Pick new location for the element(s).
+\i (00:21:38) pick grid 771.4 1273.6
+\t (00:21:38) last pick:  772.2 1275.3
+\i (00:21:38) generaledit 
+\i (00:21:39) zoom out 1 
+\i (00:21:39) setwindow pcb
+\i (00:21:39) zoom out 717.9 1278.8
+\t (00:21:39) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:21:39) trapsize 130
+\i (00:21:40) zoom out 1 
+\i (00:21:40) setwindow pcb
+\i (00:21:40) zoom out -168.5 1536.9
+\t (00:21:40) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:21:40) trapsize 261
+\i (00:21:49) prepopup -192.0 1740.2
+\i (00:21:49) pop dyn_option_select @:@Move 
+\i (00:21:49) move 
+\t (00:21:49) last pick:  -191.1 1739.4
+\t (00:21:49) last pick:  -237.9 1755.0
+\t (00:21:49) Moving C10 / C_SMC0603_10N / SMC0603.
+\t (00:21:49) Pick new location for the element(s).
+\i (00:21:52) pick grid -1141.1 1036.2
+\t (00:21:52) last pick:  -1142.7 1037.4
+\i (00:21:52) generaledit 
+\i (00:21:53) pick grid -843.9 1020.6
+\t (00:21:53) last pick:  -842.4 1021.8
+\i (00:21:56) prepopup -259.8 2214.7
+\i (00:21:57) pop dyn_option_select @:@Move 
+\i (00:21:57) move 
+\t (00:21:57) last pick:  -261.3 2215.2
+\t (00:21:57) last pick:  -292.5 2215.2
+\t (00:21:57) Moving C11 / C_SMC0603_39P / SMC0603.
+\t (00:21:57) Pick new location for the element(s).
+\i (00:22:01) pick grid -1135.9 864.2
+\t (00:22:01) last pick:  -1134.9 865.8
+\i (00:22:01) generaledit 
+\i (00:22:02) pick grid -723.9 832.9
+\t (00:22:02) last pick:  -725.4 834.6
+\i (00:22:03) drag_start grid -1151.5 92.4
+\i (00:22:04) drag_stop -796.9 712.9
+\i (00:22:04) prepopup -1000.3 681.6
+\i (00:22:05) pop dyn_option_select @:@Move 
+\i (00:22:05) move 
+\t (00:22:05) last pick:  -998.4 682.5
+\t (00:22:05) Moving C28 / C_SMC0603_2.2U / SMC0603.
+\t (00:22:05) Moving C27 / C_SMC0603_100N / SMC0603.
+\t (00:22:05) Moving C26 / C_SMC0603_47N / SMC0603.
+\t (00:22:05) Pick new location for the element(s).
+\i (00:22:06) pick grid -244.2 587.8
+\t (00:22:06) last pick:  -245.7 588.9
+\i (00:22:06) generaledit 
+\i (00:22:06) pick grid -713.5 958.0
+\t (00:22:06) last pick:  -713.7 959.4
+\i (00:22:17) prepopup 355.5 -835.8
+\i (00:22:19) pop dyn_option_select @:@Move 
+\i (00:22:19) move 
+\t (00:22:19) last pick:  354.9 -834.6
+\t (00:22:19) last pick:  327.6 -815.1
+\t (00:22:19) Moving C12 / C_SMC0603_6.8P / SMC0603.
+\t (00:22:19) Pick new location for the element(s).
+\i (00:22:21) pick grid -1146.3 692.1
+\t (00:22:21) last pick:  -1146.6 690.3
+\i (00:22:21) generaledit 
+\i (00:22:22) pick grid -854.3 290.5
+\t (00:22:22) last pick:  -854.1 288.6
+\i (00:22:24) prepopup -207.7 1004.9
+\i (00:22:25) pop dyn_option_select @:@Move 
+\i (00:22:25) move 
+\t (00:22:25) last pick:  -206.7 1006.2
+\t (00:22:25) last pick:  -253.5 998.4
+\t (00:22:25) Moving C13 / C_SMC0603_6.8P / SMC0603.
+\t (00:22:25) Pick new location for the element(s).
+\i (00:22:28) pick grid -1146.3 520.0
+\t (00:22:28) last pick:  -1146.6 518.7
+\i (00:22:28) generaledit 
+\i (00:22:28) pick grid -807.4 389.6
+\t (00:22:28) last pick:  -807.3 390.0
+\i (00:22:32) prepopup -176.4 1479.5
+\i (00:22:33) pop dyn_option_select @:@Move 
+\i (00:22:33) move 
+\t (00:22:33) last pick:  -175.5 1478.1
+\t (00:22:33) last pick:  -237.9 1505.4
+\t (00:22:33) Moving C14 / C_SMC0603_47N / SMC0603.
+\t (00:22:33) Pick new location for the element(s).
+\i (00:22:40) pick grid -1135.9 347.9
+\t (00:22:40) last pick:  -1134.9 347.1
+\i (00:22:40) generaledit 
+\i (00:22:41) pick grid -661.4 280.1
+\t (00:22:41) last pick:  -663.0 280.8
+\i (00:22:42) prepopup 2232.7 827.6
+\i (00:22:42) pop dyn_option_select @:@Move 
+\i (00:22:42) move 
+\t (00:22:42) last pick:  2230.8 826.8
+\t (00:22:42) last pick:  2129.4 807.3
+\t (00:22:42) Moving C15 / C_SMC0603_47N / SMC0603.
+\t (00:22:42) Pick new location for the element(s).
+\i (00:22:45) pick grid -1135.9 175.8
+\t (00:22:45) last pick:  -1134.9 175.5
+\i (00:22:45) generaledit 
+\i (00:22:46) pick grid -802.1 134.1
+\t (00:22:46) last pick:  -803.4 132.6
+\i (00:22:48) drag_start grid -666.6 1025.8
+\i (00:22:49) drag_stop -369.3 2631.9
+\i (00:22:49) prepopup -473.6 2543.3
+\i (00:22:50) pop dyn_option_select @:@Move 
+\i (00:22:50) move 
+\t (00:22:50) last pick:  -471.9 2542.8
+\t (00:22:50) Moving C23 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C22 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C21 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C20 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C19 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C18 / C_SMC0603_47N / SMC0603.
+\t (00:22:50) Moving C17 / C_SMC0603_220N / SMC0603.
+\t (00:22:50) Moving C16 / C_SMC0603_10N / SMC0603.
+\t (00:22:50) Pick new location for the element(s).
+\i (00:22:55) pick grid -781.3 2626.7
+\t (00:22:55) last pick:  -780.0 2628.6
+\i (00:22:55) generaledit 
+\i (00:22:55) pick grid -212.9 2512.0
+\t (00:22:55) last pick:  -214.5 2511.6
+\i (00:22:58) prepopup -520.6 681.6
+\i (00:22:59) pop dyn_option_select @:@Move 
+\i (00:22:59) move 
+\t (00:22:59) last pick:  -518.7 682.5
+\t (00:22:59) last pick:  -600.6 702.0
+\t (00:22:59) Moving C24 / C_SMC0603_47N / SMC0603.
+\t (00:22:59) Pick new location for the element(s).
+\i (00:23:06) pick grid -833.4 1124.9
+\t (00:23:06) last pick:  -834.6 1123.2
+\i (00:23:07) generaledit 
+\i (00:23:07) pick grid -635.3 765.1
+\t (00:23:07) last pick:  -635.7 764.4
+\i (00:23:09) prepopup -233.8 1948.8
+\i (00:23:10) pop dyn_option_select @:@Move 
+\i (00:23:10) move 
+\t (00:23:10) last pick:  -234.0 1950.0
+\t (00:23:10) last pick:  -261.3 1969.5
+\t (00:23:10) Moving C25 / C_SMC0603_47N / SMC0603.
+\t (00:23:10) Pick new location for the element(s).
+\i (00:23:13) pick grid -828.2 952.8
+\t (00:23:13) last pick:  -826.8 951.6
+\i (00:23:13) generaledit 
+\i (00:23:14) pick grid -536.2 942.4
+\t (00:23:14) last pick:  -534.3 943.8
+\i (00:23:14) drag_start grid -437.1 71.5
+\i (00:23:15) drag_stop -103.4 733.8
+\i (00:23:15) prepopup -171.2 582.6
+\i (00:23:16) pop dyn_option_select @:@Move 
+\i (00:23:16) move 
+\t (00:23:16) last pick:  -171.6 581.1
+\t (00:23:16) Moving C28 / C_SMC0603_2.2U / SMC0603.
+\t (00:23:16) Moving C27 / C_SMC0603_100N / SMC0603.
+\t (00:23:16) Moving C26 / C_SMC0603_47N / SMC0603.
+\t (00:23:16) Pick new location for the element(s).
+\i (00:23:19) pick grid -755.2 744.2
+\t (00:23:19) last pick:  -756.6 744.9
+\i (00:23:19) generaledit 
+\i (00:23:19) pick grid -358.9 812.0
+\t (00:23:19) last pick:  -358.8 811.2
+\i (00:23:28) drag_start grid 1440.1 -194.4
+\i (00:23:28) move 
+\t (00:23:28) last pick:  1388.4 -191.1
+\t (00:23:28) Moving L1 / L_0_SMC0603_56N / SMC0603.
+\t (00:23:28) Pick new location for the element(s).
+\i (00:23:34) drag_stop grid -541.4 2600.6
+\i (00:23:35) generaledit 
+\i (00:23:35) pick grid -531.0 1974.9
+\t (00:23:35) last pick:  -530.4 1973.4
+\i (00:23:40) drag_start grid -880.4 -382.1
+\i (00:23:40) move 
+\t (00:23:40) last pick:  -904.8 -386.1
+\t (00:23:40) Moving L2 / L_0_SMC0603_27N / SMC0603.
+\t (00:23:40) Pick new location for the element(s).
+\i (00:23:50) drag_stop grid -541.4 2418.1
+\i (00:23:50) generaledit 
+\i (00:23:51) pick grid -400.6 2016.6
+\t (00:23:51) last pick:  -401.7 2016.3
+\i (00:24:06) drag_start grid -885.6 -189.2
+\i (00:24:06) move 
+\t (00:24:06) last pick:  -889.2 -136.5
+\t (00:24:06) Moving L3 / L_0_SMC0603_27N / SMC0603.
+\t (00:24:06) Pick new location for the element(s).
+\i (00:24:11) drag_stop grid -536.2 2246.0
+\i (00:24:11) generaledit 
+\i (00:24:11) pick grid -405.8 1500.3
+\t (00:24:11) last pick:  -405.6 1501.5
+\i (00:24:14) drag_start grid -598.8 -178.8
+\i (00:24:14) move 
+\t (00:24:14) last pick:  -686.4 -148.2
+\t (00:24:14) Moving L4 / L_0_SMC0603_15N / SMC0603.
+\t (00:24:14) Pick new location for the element(s).
+\i (00:24:20) drag_stop grid -531.0 2073.9
+\i (00:24:20) generaledit 
+\i (00:24:20) pick grid -504.9 1427.3
+\t (00:24:20) last pick:  -503.1 1427.4
+\i (00:24:22) drag_start grid -624.8 -345.6
+\i (00:24:22) move 
+\t (00:24:22) last pick:  -698.1 -347.1
+\t (00:24:22) Moving L5 / L_0_SMC0603_18N / SMC0603.
+\t (00:24:22) Pick new location for the element(s).
+\i (00:24:26) drag_stop grid -525.8 1907.1
+\i (00:24:26) generaledit 
+\i (00:24:27) pick grid -437.1 1547.3
+\t (00:24:27) last pick:  -436.8 1548.3
+\i (00:24:27) zoom in 1 
+\i (00:24:27) setwindow pcb
+\i (00:24:27) zoom in -546.6 2042.6
+\t (00:24:27) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:24:27) trapsize 130
+\i (00:24:27) zoom in 1 
+\i (00:24:27) setwindow pcb
+\i (00:24:27) zoom in -898.6 2042.7
+\t (00:24:27) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:24:27) trapsize 65
+\i (00:24:27) zoom in 1 
+\i (00:24:27) setwindow pcb
+\i (00:24:27) zoom in -898.7 2042.7
+\i (00:24:27) trapsize 33
+\i (00:24:28) zoom in 1 
+\i (00:24:28) setwindow pcb
+\i (00:24:28) zoom in -402.0 1860.2
+\i (00:24:28) trapsize 16
+\i (00:24:28) zoom in 1 
+\i (00:24:28) setwindow pcb
+\i (00:24:28) zoom in -397.5 1856.9
+\i (00:24:28) trapsize 8
+\i (00:24:29) zoom out 1 
+\i (00:24:29) setwindow pcb
+\i (00:24:29) zoom out -438.9 1867.8
+\i (00:24:29) trapsize 16
+\i (00:24:30) zoom out 1 
+\i (00:24:30) setwindow pcb
+\i (00:24:30) zoom out -486.1 1859.7
+\i (00:24:30) trapsize 33
+\i (00:24:31) zoom out 1 
+\i (00:24:31) setwindow pcb
+\i (00:24:31) zoom out -496.5 1851.3
+\i (00:24:31) trapsize 65
+\i (00:24:31) zoom out 1 
+\i (00:24:31) setwindow pcb
+\i (00:24:31) zoom out -496.5 1851.2
+\t (00:24:31) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:24:31) trapsize 130
+\i (00:24:32) roam y 96 
+\i (00:24:32) roam y 96
+\i (00:24:33) roam y 96 
+\i (00:24:33) roam y 96
+\i (00:24:33) roam y 96 
+\i (00:24:33) roam y 96
+\i (00:24:33) zoom out 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom out -356.3 801.4
+\t (00:24:33) Grids are drawn 31.2, 31.2 apart for enhanced viewability.
+\i (00:24:33) trapsize 261
+\i (00:24:37) drag_start grid -139.9 -324.8
+\i (00:24:37) move 
+\t (00:24:37) last pick:  -167.7 -315.9
+\t (00:24:37) Moving L6 / L_0_SMC0603_39N / SMC0603.
+\t (00:24:37) Pick new location for the element(s).
+\i (00:24:39) drag_stop grid -520.6 1740.2
+\i (00:24:39) generaledit 
+\i (00:24:39) pick grid -447.6 1364.8
+\t (00:24:39) last pick:  -448.5 1365.0
+\i (00:24:41) drag_start grid 564.1 -262.2
+\i (00:24:41) move 
+\t (00:24:41) last pick:  518.7 -257.4
+\t (00:24:41) Moving L7 / L_0_SMC0603_21N / SMC0603.
+\t (00:24:41) Pick new location for the element(s).
+\i (00:24:45) drag_stop grid -515.3 1562.9
+\i (00:24:46) generaledit 
+\i (00:24:46) pick grid -364.1 739.0
+\t (00:24:46) last pick:  -362.7 737.1
+\i (00:24:48) drag_start grid 1127.3 -236.1
+\i (00:24:48) move 
+\t (00:24:48) last pick:  1123.2 -222.3
+\t (00:24:48) Moving L8 / L_0_SMC0603_56N / SMC0603.
+\t (00:24:48) Pick new location for the element(s).
+\i (00:24:54) drag_stop grid -515.3 1390.8
+\i (00:24:54) generaledit 
+\i (00:24:54) pick grid -400.6 770.3
+\t (00:24:54) last pick:  -401.7 772.2
+\i (00:24:55) drag_start grid -1083.7 -147.5
+\i (00:24:55) move 
+\t (00:24:55) last pick:  -1103.7 -163.8
+\t (00:24:55) Moving L9 / L_0_SMC0603_15N / SMC0603.
+\t (00:24:55) Pick new location for the element(s).
+\i (00:24:59) drag_stop grid -504.9 1224.0
+\i (00:24:59) generaledit 
+\i (00:24:59) pick grid -426.7 801.6
+\t (00:24:59) last pick:  -425.1 803.4
+\i (00:25:01) drag_start grid 856.1 -210.1
+\i (00:25:01) move 
+\t (00:25:01) last pick:  822.9 -214.5
+\t (00:25:01) Moving L10 / L_0_SMC0603_21N / SMC0603.
+\t (00:25:01) Pick new location for the element(s).
+\i (00:25:03) drag_stop grid -499.7 1051.9
+\i (00:25:03) generaledit 
+\i (00:25:04) pick grid -405.8 739.0
+\t (00:25:04) last pick:  -405.6 737.1
+\i (00:25:05) drag_start grid 193.8 -324.8
+\i (00:25:05) move 
+\t (00:25:05) last pick:  140.4 -300.3
+\t (00:25:05) Moving L11 / L_0_SMC0603_39N / SMC0603.
+\t (00:25:05) Pick new location for the element(s).
+\i (00:25:07) drag_stop grid -494.5 879.8
+\i (00:25:07) generaledit 
+\i (00:25:08) pick grid -291.1 342.7
+\t (00:25:08) last pick:  -292.5 343.2
+\i (00:25:09) drag_start grid -421.5 -345.6
+\i (00:25:09) move 
+\t (00:25:09) last pick:  -452.4 -323.7
+\t (00:25:09) Moving L12 / L_0_SMC0603_18N / SMC0603.
+\t (00:25:09) Pick new location for the element(s).
+\i (00:25:11) drag_stop grid -494.5 702.5
+\i (00:25:11) generaledit 
+\i (00:25:12) pick grid -390.2 217.5
+\t (00:25:12) last pick:  -390.0 218.4
+\i (00:25:13) drag_start grid -1219.3 -1107.0
+\i (00:25:13) drag_stop -567.5 -79.7
+\i (00:25:14) drag_start grid -1031.6 -413.4
+\i (00:25:15) drag_stop grid -218.1 191.5
+\i (00:25:16) prepopup -1042.0 -397.8
+\i (00:25:17) pop dyn_option_select @:@Move 
+\i (00:25:17) move 
+\t (00:25:17) last pick:  -1041.3 -397.8
+\t (00:25:17) Moving R3 / R_SMC0603_18 / SMC0603.
+\t (00:25:17) Moving R2 / R_SMC0603_0 / SMC0603.
+\t (00:25:17) Moving R1 / R_SMC0603_56K / SMC0603.
+\t (00:25:17) Pick new location for the element(s).
+\i (00:25:22) pick grid -421.5 405.3
+\t (00:25:22) last pick:  -421.2 405.6
+\i (00:25:22) generaledit 
+\i (00:25:23) pick grid -421.5 -267.4
+\t (00:25:23) last pick:  -421.2 -269.1
+\i (00:25:24) zoom in 1 
+\i (00:25:24) setwindow pcb
+\i (00:25:24) zoom in 1101.2 655.6
+\t (00:25:24) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:25:24) trapsize 130
+\i (00:25:25) zoom in 1 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) zoom in -119.0 666.1
+\t (00:25:25) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:25:25) trapsize 65
+\i (00:25:25) zoom in 1 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) zoom in -119.1 667.5
+\i (00:25:25) trapsize 33
+\i (00:25:25) zoom out 1 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) zoom out 101.8 681.8
+\i (00:25:25) trapsize 65
+\i (00:25:25) zoom out 1 
+\i (00:25:25) setwindow pcb
+\i (00:25:25) zoom out 101.9 681.9
+\t (00:25:25) Grids are drawn 15.6, 15.6 apart for enhanced viewability.
+\i (00:25:25) trapsize 130
+\i (00:25:26) zoom in 1 
+\i (00:25:26) setwindow pcb
+\i (00:25:26) zoom in 921.6 692.3
+\t (00:25:26) Grids are drawn 7.8, 7.8 apart for enhanced viewability.
+\i (00:25:26) trapsize 65
+\i (00:25:26) zoom in 1 
+\i (00:25:26) setwindow pcb
+\i (00:25:26) zoom in 924.2 692.3
+\i (00:25:26) trapsize 33
+\i (00:25:27) zoom in 1 
+\i (00:25:27) setwindow pcb
+\i (00:25:27) zoom in 922.3 654.5
+\i (00:25:27) trapsize 16
+\i (00:25:28) zoom in 1 
+\i (00:25:28) setwindow pcb
+\i (00:25:28) zoom in 916.1 652.0
+\i (00:25:28) trapsize 8
+\i (00:25:29) zoom out 1 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) zoom out 914.1 651.0
+\i (00:25:29) trapsize 16
+\i (00:25:32) prepopup 836.9 724.7
+\i (00:25:33) pick grid 774.3 712.0
+\t (00:25:33) last pick:  776.1 713.7
+\i (00:25:41) pick grid 750.5 723.7
+\t (00:25:41) last pick:  748.8 725.4
+\i (00:25:42) save 
+\i (00:25:43) fillin yes 
+   (00:25:43) Loading consmgr.cxt 
+   (00:25:43) Loading acns_formula.cxt 
+\i (00:25:44) generaledit 
+\i (00:25:46) exit 
+\t (00:25:46)     Journal end - Thu Apr 12 14:41:14 2018

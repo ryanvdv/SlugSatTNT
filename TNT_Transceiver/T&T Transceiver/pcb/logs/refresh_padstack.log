@@ -1,0 +1,88 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Thu Apr 12 14:57:16 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Thu Apr 12 14:57:16 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/padstacks/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SM_MM_1X09'  pad stack refresh starting.
+
+     'SM_MM_1X09'  pad stack refreshed successfully.
+     
+'SM_MM_345X345'  pad stack refresh starting.
+
+     'SM_MM_345X345'  pad stack refreshed successfully.
+     
+'SM_MM_028X085'  pad stack refresh starting.
+
+     'SM_MM_028X085'  pad stack refreshed successfully.
+     
+'SM_LIB_PAD5'  pad stack refresh starting.
+
+     'SM_LIB_PAD5'  pad stack refreshed successfully.
+     
+'SM_MM_6X39'  pad stack refresh starting.
+
+     'SM_MM_6X39'  pad stack refreshed successfully.
+     
+'SM_MM_31X42'  pad stack refresh starting.
+
+     'SM_MM_31X42'  pad stack refreshed successfully.
+     
+'BCON100T_LLB_PAD2'  pad stack refresh starting.
+
+     'BCON100T_LLB_PAD2'  pad stack refreshed successfully.
+     
+'BCON100T_LLB_PAD1'  pad stack refresh starting.
+
+     'BCON100T_LLB_PAD1'  pad stack refreshed successfully.
+     
+'SM_MM_39X12'  pad stack refresh starting.
+
+     'SM_MM_39X12'  pad stack refreshed successfully.
+     
+'SM_LLB_PAD7_1'  pad stack refresh starting.
+
+     'SM_LLB_PAD7_1'  pad stack refreshed successfully.
+     
+'SM_LLB_PAD8_1'  pad stack refresh starting.
+
+     'SM_LLB_PAD8_1'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN_5X5_32P.dra                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Thu Apr 12 14:44:39 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols
+    Name      = qfn_5x5_32p.psm
+    User      = admatthe
+    Machine   = BE308PC02
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

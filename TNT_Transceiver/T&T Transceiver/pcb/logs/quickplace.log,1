@@ -1,0 +1,98 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Thu Apr 12 14:11:02 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P
+         Placed symbol:  J4 / CON20A_BLKCON100VHTM2OEW20020_C / BLKCON100VHTM2OEW20020 at (-964.0 1808.5)
+ERROR:   Could not find symbol:  X1 / TXETBLSANF-40_0.000000 _TXETBLS / TXETBLSANF
+ERROR:   Could not find symbol:  J2 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J1 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J3 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR
+         Placed symbol:  C7 / C_SMC0603_6.8P / SMC0603 at (-98.5 1711.5)
+         Placed symbol:  C6 / C_SMC0603_6.8P / SMC0603 at (-98.5 1633.0)
+         Placed symbol:  C15 / C_SMC0603_47N / SMC0603 at (-98.5 1554.5)
+         Placed symbol:  C14 / C_SMC0603_47N / SMC0603 at (-98.5 1476.0)
+         Placed symbol:  C18 / C_SMC0603_47N / SMC0603 at (-98.5 1397.5)
+         Placed symbol:  C20 / C_SMC0603_47N / SMC0603 at (-98.5 1319.0)
+         Placed symbol:  C21 / C_SMC0603_47N / SMC0603 at (-98.5 1240.5)
+         Placed symbol:  C22 / C_SMC0603_47N / SMC0603 at (-98.5 1162.0)
+         Placed symbol:  C19 / C_SMC0603_47N / SMC0603 at (-98.5 1083.5)
+         Placed symbol:  C13 / C_SMC0603_6.8P / SMC0603 at (-98.5 1005.0)
+         Placed symbol:  C23 / C_SMC0603_47N / SMC0603 at (-98.5 926.5)
+         Placed symbol:  C26 / C_SMC0603_47N / SMC0603 at (-98.5 848.0)
+         Placed symbol:  C17 / C_SMC0603_220N / SMC0603 at (-98.5 769.5)
+         Placed symbol:  C2 / C_SMC0603_1.5N / SMC0603 at (-98.5 691.0)
+         Placed symbol:  C27 / C_SMC0603_100N / SMC0603 at (-98.5 612.5)
+         Placed symbol:  C28 / C_SMC0603_2.2U / SMC0603 at (-98.5 534.0)
+         Placed symbol:  C3 / C_SMC0603_5.1P / SMC0603 at (-98.5 455.5)
+         Placed symbol:  C4 / C_SMC0603_5.1P / SMC0603 at (-98.5 377.0)
+         Placed symbol:  C16 / C_SMC0603_10N / SMC0603 at (-98.5 298.5)
+         Placed symbol:  C24 / C_SMC0603_47N / SMC0603 at (-98.5 220.0)
+         Placed symbol:  C9 / C_SMC0603_100P / SMC0603 at (-98.5 141.5)
+         Placed symbol:  C12 / C_SMC0603_6.8P / SMC0603 at (-98.5 63.0)
+         Placed symbol:  C11 / C_SMC0603_39P / SMC0603 at (-1114.5 1927.5)
+         Placed symbol:  C25 / C_SMC0603_47N / SMC0603 at (-1114.5 1849.0)
+         Placed symbol:  C10 / C_SMC0603_10N / SMC0603 at (-1114.5 1770.5)
+         Placed symbol:  C8 / C_SMC0603_56P / SMC0603 at (-1114.5 1692.0)
+         Placed symbol:  L1 / L_0_SMC0603_56N / SMC0603 at (-1114.5 1613.5)
+         Placed symbol:  L8 / L_0_SMC0603_56N / SMC0603 at (-1114.5 1535.0)
+         Placed symbol:  L10 / L_0_SMC0603_21N / SMC0603 at (-1114.5 1456.5)
+         Placed symbol:  L7 / L_0_SMC0603_21N / SMC0603 at (-1114.5 1378.0)
+         Placed symbol:  L11 / L_0_SMC0603_39N / SMC0603 at (-1114.5 1299.5)
+         Placed symbol:  L6 / L_0_SMC0603_39N / SMC0603 at (-1114.5 1221.0)
+         Placed symbol:  L12 / L_0_SMC0603_18N / SMC0603 at (-1114.5 1142.5)
+         Placed symbol:  L5 / L_0_SMC0603_18N / SMC0603 at (-1114.5 1064.0)
+         Placed symbol:  L13 / L_0_SMC0805_BLM21PG221SN1D / SMC0805 at (-1151.0 980.0)
+         Placed symbol:  L2 / L_0_SMC0603_27N / SMC0603 at (-1114.5 896.5)
+         Placed symbol:  L3 / L_0_SMC0603_27N / SMC0603 at (-1114.5 818.0)
+         Placed symbol:  L4 / L_0_SMC0603_15N / SMC0603 at (-1114.5 739.5)
+         Placed symbol:  L9 / L_0_SMC0603_15N / SMC0603 at (-1114.5 661.0)
+         Placed symbol:  R1 / R_SMC0603_56K / SMC0603 at (-1114.5 582.5)
+         Placed symbol:  R2 / R_SMC0603_0 / SMC0603 at (-1114.5 504.0)
+         Placed symbol:  R3 / R_SMC0603_18 / SMC0603 at (-1114.5 425.5)
+         Placed symbol:  C5 / C_SMC0603_5.1P / SMC0603 at (-1114.5 347.0)
+         Placed symbol:  C1 / C_SMC0603_22P / SMC0603 at (-1114.5 268.5)
+
+
+Placed 45 of 51 applicable (51 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P
+ERROR:   Could not find symbol:  X1 / TXETBLSANF-40_0.000000 _TXETBLS / TXETBLSANF
+ERROR:   Could not find symbol:  J2 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR
+ERROR:   Could not find symbol:  J3 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J1 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+
+
+Placed 0 of 6 applicable (6 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+ERROR:   Could not find symbol:  U1 / CC1200_1_QFN_5X5_32P_CC1200 / QFN_5X5_32P
+ERROR:   Could not find symbol:  X1 / TXETBLSANF-40_0.000000 _TXETBLS / TXETBLSANF
+ERROR:   Could not find symbol:  J2 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J5 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR
+ERROR:   Could not find symbol:  J3 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+ERROR:   Could not find symbol:  J1 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE
+
+
+Placed 0 of 6 applicable (6 total) symbols.
+
+-----------------------------------------------------------------------
+
