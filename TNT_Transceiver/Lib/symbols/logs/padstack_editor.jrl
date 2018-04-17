@@ -1,24 +1,8 @@
 \t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Thu Apr 12 15:04:25 2018
-\t (00:00:00)         Host=BE308PC02 User=admatthe Pid=10988 CPUs=4
-\t (00:00:00) CmdLine= padstack_editor -mpssession admatthe -file ./#Taaaaaa04328.tmp -pname SM_MM_028X085 -data C:/Users/admatthe/AppData/Local/Temp/#Taaaaac04328.tmp
+\t (00:00:00)     Journal start - Mon Apr 16 20:23:38 2018
+\t (00:00:00)         Host=BE308PC10 User=admatthe Pid=2268 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession admatthe -file ./#Taaaaaa05812.tmp -pname SM_MM_39X12 -data C:/Users/admatthe/AppData/Local/Temp/#Taaaaac05812.tmp
 \t (00:00:00) 
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:17) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
-\d (00:00:21) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:22) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:25) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:00:26) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
-\d (00:00:29) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:00:30) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:37) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:41) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
-\d (00:00:42) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
-\d (00:00:55) QtSignal GuidedSummaryTab Save clicked
-\d (00:00:59) QtFillin 
-\d (00:01:02) QtSignal MainWindow SaveAs triggered
-\d (00:01:09) QtFillin SM_MM_028X085.pad
-\d (00:01:10) QtFillin Yes
-\t (00:01:13)     Journal end - Thu Apr 12 15:05:39 2018
+\d (00:00:01) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\t (00:00:05)     Journal end - Mon Apr 16 20:23:44 2018

@@ -1,0 +1,11 @@
+\t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Apr 16 14:27:40 2018
+\t (00:00:00)         Host=BE308PC10 User=admatthe Pid=6852 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession admatthe -file C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/pad30cir20d.pad -tempout C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/#Taaaaag06816.tmp -p C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:10) QtSignal MainWindow SaveAs triggered
+\d (00:00:22) QtFillin ../../Lib/padstacks/pad30cir20d.pad
+\d (00:00:25) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:25)     Journal end - Mon Apr 16 14:28:06 2018

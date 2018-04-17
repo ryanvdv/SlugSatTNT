@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Without Nets Report                                        )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 17:17:23 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total shapes not on a net: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (33.4839 23.5826)  Net: Dummy Net
+
+    To suppress in report attach OK_UNASSIGNED_SHAPE property to shape.

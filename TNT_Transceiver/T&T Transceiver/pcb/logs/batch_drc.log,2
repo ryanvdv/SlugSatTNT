@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Transceiver.brd                               )
 (    Software Version : 17.2S022                                      )
-(    Date/Time        : Fri Apr 13 13:56:46 2018                      )
+(    Date/Time        : Mon Apr 16 20:33:21 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -21,6 +21,9 @@
  ========= check standalone rectangles        0:00:00
 
  ..... Total number of DRC errors  0
+
+
+WARNING: 7 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

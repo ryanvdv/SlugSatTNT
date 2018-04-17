@@ -1,9 +1,9 @@
-Thu Apr 12 15:06:45 2018				Page     1
+Mon Apr 16 20:33:21 2018				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Thu Apr 12 15:06:45 2018
+	Mon Apr 16 20:33:21 2018
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : Transceiver.brd                               )
 (    Software Version : 17.2S022                                      )
-(    Date/Time        : Thu Apr 12 15:06:45 2018                      )
+(    Date/Time        : Mon Apr 16 20:33:21 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Thu Apr 12 15:06:45 2018				Page     1
+Mon Apr 16 20:33:21 2018				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -37,43 +37,38 @@ Update format symbols                  = 'NO'
 Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
 Update symbol padstacks                = 'YES'
-Preserve padstacks replaced on pins    = 'NO'
+Preserve padstacks replaced on pins    = 'YES'
 Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/admatthe/AppData/Local/Temp/#Taaaaap06700.tmp'
+Symbol list file                       = 'C:/Users/admatthe/AppData/Local/Temp/#Taaaaft08504.tmp'
 
 
 ------ Library Paths ------
-PSMPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/symbols 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+PSMPATH =  C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib.symbols 
+           C:/Users/teaves/Desktop/Mixer/Lib/symbols 
            C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/ 
 
-PADPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           c:/cadence/spb_17.2/share/local/pcb/padstacks 
-           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+PADPATH =  C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib/padstacks 
+           ../../lib/symbols 
            C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/padstacks/ 
 
 
 ------ Symbol Refresh Messages ------
 
-'QFN_5X5_32P'  symbol refreshed successfully.
+'CON_SMA_EDGE'  symbol refreshed successfully.
 
 
 ------ Pad Stack Refresh Messages ------
 
-'SM_MM_028X085'  pad stack refreshed successfully.
-'SM_MM_345X345'  pad stack refreshed successfully.
+'SM_MM_39X12'  pad stack refreshed successfully.
 
 
 ----- Symbol Update Summary ----

@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 17:57:01 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (831.144 877.842)  Net: GND

@@ -1,0 +1,44 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : CON_SMA_EDGE.dra                              )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 20:13:22 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Apr 16 20:13:22 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/Lib/symbols/CON_SMA_EDGE.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+INFO: Design is an old-style flash design. Any thermal relief
+	geometries will preserve name but set Geometry to Rectangle. 
+
+
+------ Library Paths ------
+PSMPATH =  C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib.symbols 
+           C:/Users/teaves/Desktop/Mixer/Lib/symbols 
+
+PADPATH =  C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib/padstacks 
+           ../../lib/symbols 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SM_MM_39X12'  pad stack refresh starting.
+
+     'SM_MM_39X12'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

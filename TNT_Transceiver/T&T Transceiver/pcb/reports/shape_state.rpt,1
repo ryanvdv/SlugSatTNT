@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 17:17:26 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 1 out of 6
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+       State: No Etch      Point on shape: (29.7158 23.5828)  Net: VDD_REG

@@ -1,1 +1,1 @@
-QFN_5X5_32P.dra
+CON_SMA_EDGE.dra

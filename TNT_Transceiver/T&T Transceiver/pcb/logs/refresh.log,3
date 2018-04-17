@@ -1,0 +1,97 @@
+Mon Apr 16 20:31:22 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Mon Apr 16 20:31:22 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : Transceiver.brd                               )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 20:31:22 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Apr 16 20:31:22 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'YES'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib.symbols 
+           C:/Users/teaves/Desktop/Mixer/Lib/symbols 
+
+PADPATH =  C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           ../../lib/padstacks 
+           ../../lib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'SMC0805'  symbol refreshed successfully.
+'SMC0603'  symbol refreshed successfully.
+'BLKCON100VHTM2OEW20020'  symbol refreshed successfully.
+
+'QFN_5X5_32P'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'QFN_5X5_32P' symbol unable to find in directory search path.
+
+'TXETBLSANF'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'TXETBLSANF' symbol unable to find in directory search path.
+
+'CON_SMA_EDGE'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'CON_SMA_EDGE' symbol unable to find in directory search path.
+
+'PJ-036AH-SMT-TR'  symbol starting to refresh:
+     WARNING(SPMHNI-252): 'PJ-036AH-SMT-TR' symbol unable to find in directory search path.
+'AB00'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'SM_LIB_PAD5'  pad stack refreshed successfully.
+'SM_LLB_PAD7_1'  pad stack refreshed successfully.
+'SM_LLB_PAD8_1'  pad stack refreshed successfully.
+'BCON100T_LLB_PAD1'  pad stack refreshed successfully.
+'BCON100T_LLB_PAD2'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 8 out 8
+    Design updated.
+
+Completed refreshing symbols; some symbols may not have been updated due to warnings or errors.
+       0  errors detected.
+       4  warnings detected.
