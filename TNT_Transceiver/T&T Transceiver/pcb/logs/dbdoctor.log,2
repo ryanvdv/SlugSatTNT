@@ -4,15 +4,10 @@
 (                                                                     )
 (    Drawing          : Transceiver.brd                               )
 (    Software Version : 17.2S022                                      )
-(    Date/Time        : Mon Apr 16 20:24:46 2018                      )
+(    Date/Time        : Tue Apr 17 13:29:21 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-Regenerating DRC
-  Original DRC errors:   0
-  Updated DRC errors:    0
-  DRC elapsed time:      00:00:01
-
-0 warnings, 0 errors detected, 0 errors  fixed.
+0 warnings, 0 errors detected, 0 errors could be fixed.

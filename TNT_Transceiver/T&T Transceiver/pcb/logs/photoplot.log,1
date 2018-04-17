@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Transceiver.brd                               )
 (    Software Version : 17.2S022                                      )
-(    Date/Time        : Mon Apr 16 21:24:59 2018                      )
+(    Date/Time        : Mon Apr 16 21:44:38 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -38,7 +38,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                1.0000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -85,7 +85,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                1.0000
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000

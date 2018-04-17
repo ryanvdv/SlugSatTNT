@@ -1,66 +1,9 @@
 \t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Mon Apr 16 14:32:30 2018
-\t (00:00:00)         Host=BE308PC10 User=admatthe Pid=10232 CPUs=4
-\t (00:00:00) CmdLine= padstack_editor -mpssession admatthe -file C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/pad30cir20d.pad -tempout C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/#Taaaaae11156.tmp -p C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb
+\t (00:00:00)     Journal start - Tue Apr 17 13:38:49 2018
+\t (00:00:00)         Host=BE308PC10 User=admatthe Pid=11408 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession admatthe -file ./#Taaaacc09628.tmp -pname BCON100T_LLB_PAD1 -data C:/Users/admatthe/AppData/Local/Temp/#Taaaace09628.tmp
 \t (00:00:00) 
-\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
-\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
-\d (00:00:05) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
-\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
-\d (00:00:35) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:00:40) QtSignal GuidedDrillTab holeXSize editingFinished 10
-\d (00:00:42) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
-\d (00:00:43) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
-\d (00:00:47) QtSignal GuidedDrillSymbol FigureWidth editingFinished 10
-\d (00:00:47) QtSignal GuidedDrillSymbol FigureHeight editingFinished 10
-\d (00:00:49) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
-\d (00:00:50) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:57) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 20
-\d (00:00:58) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Regular Pad"
-\d (00:00:58) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Regular Pad" 1 2
-\d (00:01:03) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 15
-\d (00:01:04) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Regular Pad"
-\d (00:01:04) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Regular Pad" 2 2
-\d (00:01:06) QtSignal GuidedDesignLayersTab PadDiameter editingFinished 20
-\d (00:01:11) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Thermal Pad"
-\d (00:01:11) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Thermal Pad" 0 3
-\d (00:01:21) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:21) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:22) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Thermal Pad"
-\d (00:01:22) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Thermal Pad" 1 3
-\d (00:01:24) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:24) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:24) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Thermal Pad"
-\d (00:01:24) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Thermal Pad" 2 3
-\d (00:01:26) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:26) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:27) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
-\d (00:01:28) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
-\d (00:01:30) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:30) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:31) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 1 "Anti Pad"
-\d (00:01:31) QtSignal GuidedDesignLayersTab LayersTable cellClicked 1 "Anti Pad" 1 4
-\d (00:01:32) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:32) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:33) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 2 "Anti Pad"
-\d (00:01:33) QtSignal GuidedDesignLayersTab LayersTable cellClicked 2 "Anti Pad" 2 4
-\d (00:01:34) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
-\d (00:01:34) QtSignal GuidedDesignLayersTab PadShape activated None
-\d (00:01:36) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:02:01) QtFillin OK
-\d (00:02:07) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
-\d (00:02:07) QtSignal GuidedMaskLayersTab PadShape activated None
-\d (00:02:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
-\d (00:02:09) QtSignal GuidedTabsParent GuidedTabs currentChanged Summary
-\d (00:02:10) QtSignal GuidedTabsParent GuidedTabs currentChanged Options
-\d (00:02:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:02:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:02:12) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
-\d (00:02:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
-\d (00:02:13) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
-\d (00:02:13) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
-\d (00:02:14) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
-\d (00:02:18) QtSignal MainWindow SaveAs triggered
-\d (00:02:37) QtFillin pad20cir10d-t.pad
-\d (00:02:40) QtSignal MainWindow UpdateToDesignExit triggered
-\t (00:02:40)     Journal end - Mon Apr 16 14:35:11 2018
+\d (00:00:05) QtSignal MainWindow UpdateToDesignExit triggered
+\d (00:00:06) QtSignal pseCheckBrowser Close clicked
+\d (00:00:07) QtFillin Yes
+\t (00:00:07)     Journal end - Tue Apr 17 13:38:57 2018

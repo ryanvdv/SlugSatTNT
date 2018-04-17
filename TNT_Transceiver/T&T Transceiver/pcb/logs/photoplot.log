@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : Transceiver.brd                               )
 (    Software Version : 17.2S022                                      )
-(    Date/Time        : Mon Apr 16 21:44:38 2018                      )
+(    Date/Time        : Tue Apr 17 13:41:28 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -25,10 +25,6 @@ Results from parameter file ...
     SUPPRESS-EQUAL        YES
     UNDEF-APT-CONT        NO
 
- WARNING: Generating english output data from a metric database
- may cause slight roundoff error of coordinates in output file.
-
-
 
 
 ================================================================
@@ -38,17 +34,29 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                1.0000
+  Undefined line width                1.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
-	(29.4616 23.8370) will be ignored. Increasing output
+	(677.208 472.441) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(677.209 667.343) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(736.209 472.441) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(736.208 667.343) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -66,8 +74,8 @@ Results from parameter file ...
   SQUARE     0.05000                     0.000 NO     DARK 
   SQUARE     0.05800                     0.000 NO     DARK 
   SQUARE     0.13583                     0.000 NO     DARK 
-  RECTANGLE  0.03346     x 0.01102       0.000 NO     DARK 
-  RECTANGLE  0.03346     x 0.01102      90.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01102       0.000 NO     DARK 
+  RECTANGLE  0.03347     x 0.01102      90.000 NO     DARK 
   RECTANGLE  0.03800     x 0.03200       0.000 NO     DARK 
   RECTANGLE  0.03800     x 0.03200      90.000 NO     DARK 
   RECTANGLE  0.03937     x 0.03543       0.000 NO     DARK 
@@ -85,11 +93,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                1.0000
+  Undefined line width                39.370
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -107,7 +115,7 @@ Results from parameter file ...
   CIRCLE     0.05800                                  DARK 
   SQUARE     0.05800                     0.000 NO     DARK 
 
-     transceiverBOTTOM created with warnings
+     transceiverBOTTOM created.
 
 
 ================================================================
@@ -117,11 +125,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -146,7 +154,7 @@ Results from parameter file ...
   RECTANGLE  0.17323     x 0.12992       0.000 NO     DARK 
   RECTANGLE  0.24409     x 0.16142       0.000 NO     DARK 
 
-     transceiverSMT created with warnings
+     transceiverSMT created.
 
 
 ================================================================
@@ -156,11 +164,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -174,7 +182,7 @@ Results from parameter file ...
   CIRCLE     0.05800                                  DARK 
   SQUARE     0.05800                     0.000 NO     DARK 
 
-     transceiverSMB created with warnings
+     transceiverSMB created.
 
 
 ================================================================
@@ -184,11 +192,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -205,7 +213,7 @@ Results from parameter file ...
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00800                                  DARK 
 
-     transceiverSST created with warnings
+     transceiverSST created.
 
 
 ================================================================
@@ -215,11 +223,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -227,7 +235,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     transceiverSSB created with warnings
+     transceiverSSB created.
 
 
 ================================================================
@@ -237,11 +245,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -254,7 +262,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.00390                                  DARK 
 
-     transceiverMECH created with warnings
+     transceiverMECH created.
 
 
 ================================================================
@@ -264,11 +272,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -280,12 +288,12 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00500                                  DARK 
-  CIRCLE     0.01500                                  DARK 
-  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
   CIRCLE     0.05800                                  DARK 
   SQUARE     0.05800                     0.000 NO     DARK 
 
-     transceiverInner1 created with warnings
+     transceiverInner1 created.
 
 
 ================================================================
@@ -295,11 +303,11 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.0000
+  Undefined line width                0.000
   Mirror code                         NONE
   Rotate angle                        NONE
-  Offset x:                           0.0000
-  Offset y:                           0.0000
+  Offset x:                           0.000
+  Offset y:                           0.000
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
@@ -311,24 +319,24 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00500                                  DARK 
-  CIRCLE     0.01500                                  DARK 
-  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
   CIRCLE     0.05800                                  DARK 
   SQUARE     0.05800                     0.000 NO     DARK 
 
-     transceiverInner2 created with warnings
+     transceiverInner2 created.
 
 
 ------------------------------------------------------
  SUMMARY:
         transceiverTOP created with warnings
-        transceiverBOTTOM created with warnings
-        transceiverSMT created with warnings
-        transceiverSMB created with warnings
-        transceiverSST created with warnings
-        transceiverSSB created with warnings
-        transceiverMECH created with warnings
-        transceiverInner1 created with warnings
-        transceiverInner2 created with warnings
+        transceiverBOTTOM created.
+        transceiverSMT created.
+        transceiverSMB created.
+        transceiverSST created.
+        transceiverSSB created.
+        transceiverMECH created.
+        transceiverInner1 created.
+        transceiverInner2 created.
 
  ARTWORK had warnings
