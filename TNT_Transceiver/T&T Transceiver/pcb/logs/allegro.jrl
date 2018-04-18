@@ -1,0 +1,34 @@
+\t (00:00:03) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Tue Apr 17 14:43:44 2018
+\t (00:00:03)         Host=BE308PC10 User=admatthe Pid=5084 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\admatthe\Documents\SlugSatTNT\TNT_Transceiver\T&T Transceiver\pcb\Transceiver.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/admatthe/Documents/SlugSatTNT/TNT_Transceiver/T&T Transceiver/pcb/Transceiver.brd
+\t (00:00:03) Grids are drawn 15.748, 15.748 apart for enhanced viewability.
+\i (00:00:03) trapsize 12746
+\i (00:00:03) trapsize 13037
+\t (00:00:03) Grids are drawn 15.748, 15.748 apart for enhanced viewability.
+\i (00:00:03) trapsize 13037
+\i (00:00:03) etchedit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in 796.134 470.453
+\t (00:00:05) Grids are drawn 7.874, 7.874 apart for enhanced viewability.
+\i (00:00:05) trapsize 6518
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in 798.741 461.328
+\i (00:00:05) trapsize 3259
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 731.604 514.778
+\i (00:00:06) trapsize 6518
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 649.473 530.422
+\t (00:00:06) Grids are drawn 15.748, 15.748 apart for enhanced viewability.
+\i (00:00:06) trapsize 13037
+\i (01:33:40) exit 
+\t (01:33:40)     Journal end - Tue Apr 17 16:17:21 2018
