@@ -1,0 +1,45 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : DFN2X2_8P.dra                                 )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Tue Apr 10 16:42:11 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Apr 10 16:42:11 2018				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'DFN2X2_8P.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+INFO: Design is an old-style flash design. Any thermal relief
+	geometries will preserve name but set Geometry to Rectangle. 
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           E:/TT_schematics/[default_project root]/Lib/padstacks/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+Completed refreshing all pad stacks successfully.

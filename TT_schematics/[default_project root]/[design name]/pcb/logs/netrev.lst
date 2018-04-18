@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : frontend.brd                                  )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Fri Apr 13 13:27:56 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:/TT_schematics/[default_project root]/[design name]/pcb'
+Design Directory:            'D:/TT_schematics/[default_project root]/[design name]/pcb'
+Old design name:             'D:/TT_schematics/[default_project root]/[design name]/pcb/frontend.brd'
+New design name:             'D:/TT_schematics/[default_project root]/[design name]/pcb/frontend.brd'
+
+CmdLine: netrev -$ -i D:/TT_schematics/[default_project root]/[design name]/pcb -y 1 -h -q netrev_constraint_report.xml D:/TT_schematics/[default_project root]/[design name]/pcb/#Taaaaac11144.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read D:/TT_schematics/[default_project root]/[design name]/pcb/pstchip.dat 
+   Finished reading D:/TT_schematics/[default_project root]/[design name]/pcb/pstchip.dat (00:00:00.10)
+Starting to read D:/TT_schematics/[default_project root]/[design name]/pcb/pstxprt.dat 
+   Finished reading D:/TT_schematics/[default_project root]/[design name]/pcb/pstxprt.dat (00:00:00.00)
+Starting to read D:/TT_schematics/[default_project root]/[design name]/pcb/pstxnet.dat 
+   Finished reading D:/TT_schematics/[default_project root]/[design name]/pcb/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  ../../lib/modules 
+           . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  ../../lib/symbols 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  ../../lib/padstacks 
+           ../../lib/symbols 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 13 13:27:56 2018
+   DESIGN NAME : 'TRANSCEIVER FRONT END'
+   PACKAGING ON Mar 20 2017 11:21:40
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:58
+elapsed time  0:00:01
+

@@ -1,0 +1,8 @@
+2018-04-12T14:32:22 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstchip.dat"
+2018-04-12T14:32:22 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstxnet.dat"
+2018-04-12T14:32:22 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstxprt.dat"
+2018-04-12T14:32:23 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstdmlmodels.dat"
+2018-04-13T13:27:56 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstchip.dat"
+2018-04-13T13:27:56 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstxnet.dat"
+2018-04-13T13:27:56 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstxprt.dat"
+2018-04-13T13:27:56 ===> "D:/TT_schematics/[default_project root]/[design name]/pcb/pstdmlmodels.dat"

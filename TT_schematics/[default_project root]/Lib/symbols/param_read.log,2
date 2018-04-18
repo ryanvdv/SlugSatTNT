@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : PJ-036AH-SMT-TR.dra                           )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Tue Apr 10 20:40:23 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : E:/TT_schematics/[default_project root]/Lib/Local/parameter/symbol_mode.prm
+	Layout Name   : PJ-036AH-SMT-TR.dra
+
+Reading...db_common_type:
+	WARNING: Unmatched Data - Field Name: alternate_subclass , Value: "NAME UNDEFINED"
+Reading...grid_parms_type:
+Reading...UnusedPadsSuppressionSettings:
+Reading...color_table_table:
+Reading...ColorParmType:
+Reading...text_size_table:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 1.

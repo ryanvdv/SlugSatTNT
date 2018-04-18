@@ -1,0 +1,388 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : frontend.brd                                  )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 21:59:06 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(40.4292 24.5165) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.9261 25.2075) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(17.9261 25.2075) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.0106 9.5281) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(8.0107 14.3063) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(7.9106 19.0190) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.0106 9.5280) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(39.4793 24.5165) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01201                                  DARK 
+  CIRCLE     0.01400                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.06201                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.06201                     0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.01102       0.000 NO     DARK 
+  RECTANGLE  0.02520     x 0.01102      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.06299       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.10630      90.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201       0.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201      45.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201      90.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201     135.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.15354     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.16535     x 0.12205       0.000 NO     DARK 
+  RECTANGLE  0.23622     x 0.15354       0.000 NO     DARK 
+
+     frontendTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                1.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
+  CIRCLE     0.03000                                  DARK 
+  CIRCLE     0.06201                                  DARK 
+  SQUARE     0.06201                     0.000 NO     DARK 
+
+     frontendBOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMT >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendSMT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.06701                                  DARK 
+  SQUARE     0.05000                     0.000 NO     DARK 
+  SQUARE     0.06701                     0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.04331      90.000 NO     DARK 
+  RECTANGLE  0.02913     x 0.01496       0.000 NO     DARK 
+  RECTANGLE  0.02913     x 0.01496      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01575      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.03543     x 0.11024      90.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201       0.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201      45.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201      90.000 NO     DARK 
+  RECTANGLE  0.03799     x 0.03201     135.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.06693      90.000 NO     DARK 
+  RECTANGLE  0.15748     x 0.05118       0.000 NO     DARK 
+  RECTANGLE  0.17323     x 0.12992       0.000 NO     DARK 
+  RECTANGLE  0.24409     x 0.16142       0.000 NO     DARK 
+
+     frontendSMT created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMB >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendSMB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.06701                                  DARK 
+  SQUARE     0.06701                     0.000 NO     DARK 
+
+     frontendSMB created with warnings
+
+
+================================================================
+     PROCESSING FILM < SST >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendSST.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00598                                  DARK 
+  CIRCLE     0.00799                                  DARK 
+
+     frontendSST created with warnings
+
+
+================================================================
+     PROCESSING FILM < SSB >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendSSB.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     frontendSSB created with warnings
+
+
+================================================================
+     PROCESSING FILM < MECH >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendMECH.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape composed 0 width line found at (0.0000 0.0000)
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+
+     frontendMECH created with warnings
+
+
+================================================================
+     PROCESSING FILM < INNER1 >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendINNER1.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06201                                  DARK 
+  SQUARE     0.06201                     0.000 NO     DARK 
+
+     frontendINNER1 created with warnings
+
+
+================================================================
+     PROCESSING FILM < INNER2 >
+     TO FILE < E:/TT_schematics/[default_project root]/[design name]/pcb/frontendINNER2.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.01500                                  DARK 
+  CIRCLE     0.02500                                  DARK 
+  CIRCLE     0.06201                                  DARK 
+  SQUARE     0.06201                     0.000 NO     DARK 
+
+     frontendINNER2 created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        frontendTOP created with warnings
+        frontendBOTTOM created with warnings
+        frontendSMT created with warnings
+        frontendSMB created with warnings
+        frontendSST created with warnings
+        frontendSSB created with warnings
+        frontendMECH created with warnings
+        frontendINNER1 created with warnings
+        frontendINNER2 created with warnings
+
+ ARTWORK had warnings

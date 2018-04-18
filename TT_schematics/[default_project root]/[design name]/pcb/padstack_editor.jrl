@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Apr 16 18:42:30 2018
+\t (00:00:00)         Host=BE308PC03 User=awicker Pid=6480 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession awicker -file E:/TT_schematics/[default_project root]/Lib/padstacks/pad20cir10d-t.pad -tempout E:/TT_schematics/[default_project root]/[design name]/pcb/#Taaaaae10444.tmp -p E:/TT_schematics/[default_project root]/[design name]/pcb
+\t (00:00:00) 
+\d (00:00:08) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:00:08)     Journal end - Mon Apr 16 18:42:38 2018

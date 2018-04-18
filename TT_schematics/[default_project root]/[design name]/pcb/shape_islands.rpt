@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : frontend.brd                                  )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Mon Apr 16 17:04:24 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 2
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (572.37 800.88)  Net: GND
+	Point on shape: (574.68 929.16)  Net: GND

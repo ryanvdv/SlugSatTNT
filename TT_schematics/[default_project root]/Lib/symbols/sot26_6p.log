@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SOT26_6P.dra                                  )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Tue Apr 10 20:04:54 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/TT_schematics/[default_project root]/Lib/symbols
+    Name      = sot26_6p.psm
+    User      = awicker
+    Machine   = BE308PC03
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

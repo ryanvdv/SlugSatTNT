@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CON_SMA_EDGE.dra                              )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Tue Apr 10 21:19:19 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/TT_schematics/[default_project root]/Lib/symbols
+    Name      = con_sma_edge.psm
+    User      = awicker
+    Machine   = BE308PC03
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

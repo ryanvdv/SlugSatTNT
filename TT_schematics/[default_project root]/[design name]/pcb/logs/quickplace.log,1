@@ -1,0 +1,87 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : frontend.brd                                  )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Thu Apr 12 14:32:41 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U5 / RF5110G_1_QFN_3X3_16P_RF5110G / QFN_3X3_16P at (139.1468 183.2968)
+         Placed symbol:  U4 / MMZ09332BT1_3_QFN3X3_12P_MMZ093 / QFN3X3_12P at (133.7872 182.9468)
+         Placed symbol:  J6 / HEADER 10_BCON_10X1V_100S_1SQ_4 / BCON_10X1V_100S_1SQ_42D at (107.6690 184.1252)
+         Placed symbol:  U3 / TQP3M9036_2_DFN2X2_8P_TQP3M9036 / DFN2X2_8P at (102.9172 184.8968)
+         Placed symbol:  U1 / HMC544_0_SOT26_6P_HMC544 / SOT26_6P at (97.9576 184.9468)
+         Placed symbol:  U2 / 74AC04_0_SOT26_6P_74LVC2G04 / SOT26_6P at (93.1480 184.9468)
+         Placed symbol:  J2 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE at (89.6884 181.7968)
+         Placed symbol:  J7 / PJ-036AH-SMT-TR_PJ-036AH-SMT-TR / PJ-036AH-SMT-TR at (85.2852 176.3468)
+         Placed symbol:  J3 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE at (67.7320 181.7968)
+         Placed symbol:  J5 / SMA_EDGE_CON_SMA_EDGE_SMA_EDGE / CON_SMA_EDGE at (63.2788 181.7968)
+         Placed symbol:  C4 / C_SMC0603_1U / SMC0603 at (58.8277 184.6078)
+         Placed symbol:  C8 / C_SMC0603_1U / SMC0603 at (58.8277 182.6139)
+         Placed symbol:  C11 / C_SMC0603_2.4P / SMC0603 at (55.5511 184.6078)
+         Placed symbol:  C13 / C_SMC0603_1000P / SMC0603 at (55.5511 182.6139)
+         Placed symbol:  C14 / C_SMC0603_4.7U / SMC0603 at (52.2745 184.6078)
+         Placed symbol:  C15 / C_SMC0603_18P / SMC0603 at (52.2745 182.6139)
+         Placed symbol:  C17 / C_SMC0603_220P / SMC0603 at (48.9979 184.6078)
+         Placed symbol:  C18 / CAP NP_SMC0603_10N / SMC0603 at (48.9979 182.6139)
+         Placed symbol:  C23 / CAP NP_SMC0603_10N / SMC0603 at (45.7213 184.6078)
+         Placed symbol:  C32 / CAP NP_SMC0603_10N / SMC0603 at (45.7213 182.6139)
+         Placed symbol:  C33 / CAP NP_SMC0603_10N / SMC0603 at (42.4447 184.6078)
+         Placed symbol:  C10 / C_SMC0603_1U / SMC0603 at (42.4447 182.6139)
+         Placed symbol:  C9 / C_SMC0603_100P / SMC0603 at (39.1681 184.6078)
+         Placed symbol:  C34 / CAP NP_SMC0603_10N / SMC0603 at (39.1681 182.6139)
+         Placed symbol:  C31 / CAP NP_SMC0603_1N / SMC0603 at (35.8915 184.6078)
+         Placed symbol:  C20 / CAP NP_SMC0603_330P / SMC0603 at (35.8915 182.6139)
+         Placed symbol:  C25 / CAP NP_SMC0603_330P / SMC0603 at (32.6149 184.6078)
+         Placed symbol:  C21 / CAP NP_SMC0603_56P / SMC0603 at (32.6149 182.6139)
+         Placed symbol:  C29 / CAP NP_SMC0603_56P / SMC0603 at (29.3383 184.6078)
+         Placed symbol:  C22 / CAP POL_F921A335MPA_3.3U / F921A335MPA at (29.6862 182.8029)
+         Placed symbol:  C26 / CAP POL_F921A335MPA_3.3U / F921A335MPA at (26.4096 184.7968)
+         Placed symbol:  C27 / CAP NP_SMC0603_22P / SMC0603 at (26.0617 182.0430)
+         Placed symbol:  C28 / CAP NP_SMC0603_2P / SMC0603 at (22.7851 184.6078)
+         Placed symbol:  C2 / C_SMC0603_100P / SMC0603 at (22.7851 182.6139)
+         Placed symbol:  C6 / C_SMC0603_100P / SMC0603 at (19.5085 184.6078)
+         Placed symbol:  C19 / CAP NP_SMC0603_1N / SMC0603 at (19.5085 182.6139)
+         Placed symbol:  C7 / C_SMC0603_100P / SMC0603 at (16.2319 184.6078)
+         Placed symbol:  C24 / CAP NP_SMC0603_1N / SMC0603 at (16.2319 182.6139)
+         Placed symbol:  C12 / C_SMC0603_100P / SMC0603 at (12.9553 184.6078)
+         Placed symbol:  C5 / C_SMC0603_100P / SMC0603 at (12.9553 182.6139)
+         Placed symbol:  L1 / INDUCTOR_SMC0603_68N / SMC0603 at (9.6787 184.6078)
+         Placed symbol:  L10 / INDUCTOR_SMC0805_BLM21PG221SM1D / SMC0805 at (8.7516 182.4742)
+         Placed symbol:  L2 / INDUCTOR_SMC0603_3.9N / SMC0603 at (5.2591 184.6078)
+         Placed symbol:  L3 / INDUCTOR_SMC0603_5.6N / SMC0603 at (5.2591 182.6139)
+         Placed symbol:  L4 / INDUCTOR_SMC0603_5.6N / SMC0603 at (1.9825 184.6078)
+         Placed symbol:  L5 / INDUCTOR_SMC0603_12N / SMC0603 at (1.9825 182.6139)
+WARNING: Could not place:  L6 / INDUCTOR_SMC0603_22N / SMC0603; outside of drawing extents
+WARNING: Could not place:  L7 / INDUCTOR_SMC0603_6.8N / SMC0603; outside of drawing extents
+WARNING: Could not place:  L8 / INDUCTOR_SMC0603_2.7N / SMC0603; outside of drawing extents
+WARNING: Could not place:  L9 / INDUCTOR_NR3012T1R0N_1U / NR3012T1R0N; outside of drawing extents
+WARNING: Could not place:  R1 / R_SMC0603_33K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R10 / RESISTOR_SMC0603_180 / SMC0603; outside of drawing extents
+WARNING: Could not place:  R11 / RESISTOR_SMC0603_0 / SMC0603; outside of drawing extents
+WARNING: Could not place:  R12 / RESISTOR_SMC0603_0 / SMC0603; outside of drawing extents
+WARNING: Could not place:  R13 / RESISTOR_SMC0603_0 / SMC0603; outside of drawing extents
+WARNING: Could not place:  R2 / R_SMC0603_10K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R3 / R_SMC0603_1.8K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R4 / R_SMC0603_2K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R5 / R_SMC0603_1K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R6 / R_SMC0603_1K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R7 / R_SMC0603_0K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R8 / R_SMC0603_0K / SMC0603; outside of drawing extents
+WARNING: Could not place:  R9 / RESISTOR_SMC0603_18 / SMC0603; outside of drawing extents
+WARNING: Could not place:  C16 / C_SMC0603_100P / SMC0603; outside of drawing extents
+WARNING: Could not place:  C3 / C_SMC0603_100P / SMC0603; outside of drawing extents
+WARNING: Could not place:  C30 / CAP NP_SMC0603_47P / SMC0603; outside of drawing extents
+WARNING: Could not place:  C35 / C_SMC0603_2.2U / SMC0603; outside of drawing extents
+WARNING: Could not place:  C1 / C_SMC0603_100P / SMC0603; outside of drawing extents
+
+
+Placed 46 of 68 applicable (68 total) symbols.
+
+-----------------------------------------------------------------------
+

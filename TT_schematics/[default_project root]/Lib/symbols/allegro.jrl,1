@@ -1,0 +1,117 @@
+\t (00:00:12) allegro 17.2 S022 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Tue Apr 10 19:05:14 2018
+\t (00:00:12)         Host=BE308PC03 User=awicker Pid=6036 CPUs=4
+\t (00:00:12) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:12) 
+   (00:00:13) Loading axlcore.cxt 
+\t (00:00:13) Opening existing design...
+\d (00:00:14) Design opened: E:/TT_schematics/[default_project root]/Lib/symbols/DFN2X2_8P.dra
+\i (00:00:14) trapsize 613
+\t (00:00:14) Grids are drawn 0.1000, 0.1000 apart for enhanced viewability.
+\i (00:00:14) trapsize 629
+\t (00:00:14) Grids are drawn 0.1000, 0.1000 apart for enhanced viewability.
+\i (00:00:14) trapsize 629
+\i (00:00:15) generaledit 
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 1.2460 -0.5432
+\t (00:03:06) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:03:06) trapsize 1259
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in 1.4726 -0.9964
+\t (00:03:06) Grids are drawn 0.1000, 0.1000 apart for enhanced viewability.
+\i (00:03:06) trapsize 629
+\i (00:03:07) zoom in 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom in 1.4726 -0.9964
+\i (00:03:07) trapsize 315
+\i (00:03:07) zoom in 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom in 1.4222 -1.0089
+\i (00:03:07) trapsize 157
+\i (00:03:07) zoom out 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom out 1.1925 -1.0152
+\i (00:03:07) trapsize 315
+\i (00:03:12) zoom in 1 
+\i (00:03:12) setwindow pcb
+\i (00:03:12) zoom in -0.2427 0.1681
+\i (00:03:12) trapsize 157
+\i (00:03:12) zoom out 1 
+\i (00:03:12) setwindow pcb
+\i (00:03:12) zoom out -0.2301 0.1241
+\i (00:03:12) trapsize 315
+\i (00:03:13) zoom out 1 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) zoom out -0.2050 0.0800
+\i (00:03:13) trapsize 629
+\i (00:03:14) zoom in 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom in 0.1224 0.0548
+\i (00:03:14) trapsize 315
+\i (00:03:14) zoom in 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom in 0.1224 0.0548
+\i (00:03:14) trapsize 157
+\i (00:03:15) zoom out 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom out 0.0910 0.0706
+\i (00:03:15) trapsize 315
+\i (00:03:15) zoom out 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom out 0.0908 0.0706
+\i (00:03:15) trapsize 629
+\i (00:05:45) show measure 
+\i (00:05:52) pick grid -0.0350 0.0580
+\t (00:05:52) last pick:  -0.0500 0.0500
+\i (00:05:54) pick grid 1.7777 0.0202
+\t (00:05:54) last pick:  1.8000 0.0000
+\i (00:07:05) setwindow text
+\i (00:07:05) close
+\i (00:07:17) zoom in 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom in -0.5889 -0.4581
+\i (00:07:17) trapsize 315
+\i (00:07:17) zoom in 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom in -0.5889 -0.4581
+\i (00:07:17) trapsize 157
+\i (00:07:17) zoom in 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom in -0.5889 -0.4581
+\i (00:07:17) trapsize 79
+\i (00:07:17) zoom out 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom out -0.5873 -0.4549
+\i (00:07:17) trapsize 157
+\i (00:07:17) zoom out 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom out -0.5872 -0.4549
+\i (00:07:17) trapsize 315
+\i (00:07:26) prepopup 3.3591 -1.6256
+\i (00:07:27) done 
+\i (00:07:27) generaledit 
+\i (00:07:28) move 
+\t (00:07:28) Select element(s) to move.
+\i (00:07:36) setwindow form.find
+\i (00:07:36) FORM find lines NO 
+\i (00:07:37) setwindow pcb
+\i (00:07:37) pick grid -0.4111 -0.4360
+\t (00:07:37) last pick:  -0.4000 -0.4500
+\t (00:07:37) last pick:  -0.3700 -0.7500
+\t (00:07:37) Pick new location for the element(s).
+\i (00:07:40) pick grid 1.0806 -0.9773
+\t (00:07:40) last pick:  1.1000 -1.0000
+\i (00:07:41) prepopup 3.6990 -0.9332
+\i (00:07:42) done 
+\i (00:07:42) generaledit 
+\i (00:07:45) save 
+\i (00:07:46) fillin yes 
+\t (00:07:47) Symbol 'dfn2x2_8p.psm' created.
+\i (00:07:47) generaledit 
+\i (00:09:44) new 
+\i (00:09:48) newdrawfillin "menu_cancel"
+\i (00:09:48) generaledit 
+\i (00:09:50) exit 
+\t (00:09:50)     Journal end - Tue Apr 10 19:14:52 2018

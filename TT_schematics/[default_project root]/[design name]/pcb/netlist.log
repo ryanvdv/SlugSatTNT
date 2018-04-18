@@ -1,0 +1,15 @@
+{ Using PSTWRITER 17.2.0 d001Apr-13-2018 at 13:25:40 }
+
+#1 WARNING(ORCAP-36006): Part Name "HEADER 10_BCON_10X1V_100S_1SQ_42D_HEADER 10" is renamed to "HEADER 10_BCON_10X1V_100S_1SQ_4".
+#2 WARNING(ORCAP-36006): Part Name "PJ-036AH-SMT-TR_PJ-036AH-SMT-TR_PJ-036AH-SMT-TR" is renamed to "PJ-036AH-SMT-TR_PJ-036AH-SMT-TR".
+#3 WARNING(ORCAP-36006): Part Name "MMZ09332BT1_3_QFN3X3_12P_MMZ09332B" is renamed to "MMZ09332BT1_3_QFN3X3_12P_MMZ093".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\TT_schematics\[default_project root]\[design name]\pcb/pstchip.dat
+
+Loading... D:\TT_schematics\[default_project root]\[design name]\pcb/pstchip.dat
+
+Loading... D:\TT_schematics\[default_project root]\[design name]\pcb/pstxprt.dat
+
+Loading... D:\TT_schematics\[default_project root]\[design name]\pcb/pstxnet.dat
+packaging the design view...

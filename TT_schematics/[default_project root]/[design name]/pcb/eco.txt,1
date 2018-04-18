@@ -1,0 +1,443 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  APC1         pins ADDED TO this new net
+                                 C34.1          J6.4           U5.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APC2         pins ADDED TO this new net
+                                 C33.1          J6.5           U5.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CTL          pins ADDED TO this new net
+                                 J6.6           U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C4.2           C5.2           C8.1           
+                                 C9.1           C10.1          C11.1          
+                                 C12.1          C13.1          C14.1          
+                                 C15.1          C16.1          C18.2          
+                                 C19.2          C20.2          C22.2          
+                                 C23.2          C24.2          C25.2          
+                                 C26.2          C27.2          C28.2          
+                                 C30.2          C31.2          C32.2          
+                                 C33.2          C34.2          C35.1          
+                                 J2.2           J2.3           J3.2           
+                                 J3.3           J5.2           J5.3           
+                                 J6.7           J6.8           J6.9           
+                                 J6.10          J7.2           J7.3           
+                                 L6.2           R2.1           R5.2           
+                                 R10.1          U1.2           U2.2           
+                                 U3.1           U3.3           U3.4           
+                                 U3.5           U3.8           U3.9           
+                                 U4.13          U5.2           U5.4           
+                                 U5.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00403       pins ADDED TO this new net
+                                 U1.4           U2.3           U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00723       pins ADDED TO this new net
+                                 C1.2           U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00727       pins ADDED TO this new net
+                                 C2.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00736       pins ADDED TO this new net
+                                 C3.1           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00740       pins ADDED TO this new net
+                                 U1.6           U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N01696       pins ADDED TO this new net
+                                 R1.1           R2.2           U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01753       pins ADDED TO this new net
+                                 C7.2           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01757       pins ADDED TO this new net
+                                 C6.1           L1.1           U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02051       pins ADDED TO this new net
+                                 C6.2           J3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02570       pins ADDED TO this new net
+                                 C17.1          L5.1           U4.7           
+                                 U4.8           U4.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02577       pins ADDED TO this new net
+                                 C17.2          L4.1           L6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02623       pins ADDED TO this new net
+                                 C15.2          L4.2           R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02941       pins ADDED TO this new net
+                                 R3.2           U4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02945       pins ADDED TO this new net
+                                 R4.2           U4.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03001       pins ADDED TO this new net
+                                 L2.2           U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03217       pins ADDED TO this new net
+                                 C11.2          L3.2           U4.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03319       pins ADDED TO this new net
+                                 C12.2          R5.1           R6.1           
+                                 U4.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04309       pins ADDED TO this new net
+                                 R9.1           U5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04313       pins ADDED TO this new net
+                                 C21.1          R10.2          R12.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04324       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C21.2          U5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04347       pins ADDED TO this new net
+                                 C25.1          L7.1           R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04360       pins ADDED TO this new net
+                                 L7.2           U5.5           U5.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04391       pins ADDED TO this new net
+                                 L8.1           L9.1           U5.9           
+                                 U5.10          U5.11          U5.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04427       pins ADDED TO this new net
+                                 C27.1          C28.1          C29.1          
+                                 L8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08245       pins ADDED TO this new net
+                                 C29.2          R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11139       pins ADDED TO this new net
+                                 J7.1           L10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N024760      pins ADDED TO this new net
+                                 L2.1           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDC          pins ADDED TO this new net
+                                 J6.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PDET         pins ADDED TO this new net
+                                 C16.2          J6.3           U4.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PWR_IN       pins ADDED TO this new net
+                                 J2.1           R7.1           R12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P_D          pins ADDED TO this new net
+                                 J6.1           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RF1          pins ADDED TO this new net
+                                 C2.1           C7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RF2          pins ADDED TO this new net
+                                 C1.1           R8.2           R13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RFC          pins ADDED TO this new net
+                                 C3.2           J5.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VDD          pins ADDED TO this new net
+                                 C4.1           C5.1           C8.2           
+                                 C9.2           C10.2          C13.2          
+                                 C14.2          C18.1          C19.1          
+                                 C20.1          C22.1          C23.1          
+                                 C24.1          C26.1          C30.1          
+                                 C31.1          C32.1          C35.2          
+                                 L1.2           L3.1           L5.2           
+                                 L9.2           L10.2          R3.1           
+                                 R4.1           R9.2           R11.1          
+                                 U2.5           U4.2           U5.14          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74AC04_0_SOT26_6P_74LVC2G04
+ CAP NP_SMC0603_1N
+ CAP NP_SMC0603_2P
+ CAP NP_SMC0603_10N
+ CAP NP_SMC0603_22P
+ CAP NP_SMC0603_47P
+ CAP NP_SMC0603_56P
+ CAP NP_SMC0603_330P
+ CAP POL_F921A335MPA_3.3U
+ C_SMC0603_1U
+ C_SMC0603_2.2U
+ C_SMC0603_2.4P
+ C_SMC0603_4.7U
+ C_SMC0603_18P
+ C_SMC0603_100P
+ C_SMC0603_220P
+ C_SMC0603_1000P
+ HEADER 10_BCON_10X1V_100S_1SQ_4
+ HMC544_0_SOT26_6P_HMC544
+ INDUCTOR_NR3012T1R0N_1U
+ INDUCTOR_SMC0603_2.7N
+ INDUCTOR_SMC0603_3.9N
+ INDUCTOR_SMC0603_5.6N
+ INDUCTOR_SMC0603_6.8N
+ INDUCTOR_SMC0603_12N
+ INDUCTOR_SMC0603_22N
+ INDUCTOR_SMC0603_68N
+ INDUCTOR_SMC0805_BLM21PG221SM1D
+ MMZ09332BT1_3_QFN3X3_12P_MMZ093
+ PJ-036AH-SMT-TR_PJ-036AH-SMT-TR
+ RESISTOR_SMC0603_0
+ RESISTOR_SMC0603_18
+ RESISTOR_SMC0603_180
+ RF5110G_1_QFN_3X3_16P_RF5110G
+ R_SMC0603_0K
+ R_SMC0603_1.8K
+ R_SMC0603_1K
+ R_SMC0603_2K
+ R_SMC0603_10K
+ R_SMC0603_33K
+ SMA_EDGE_CON_SMA_EDGE_SMA_EDGE
+ TQP3M9036_2_DFN2X2_8P_TQP3M9036
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0603_100P        
+ C2                  C_SMC0603_100P        
+ C3                  C_SMC0603_100P        
+ C4                  C_SMC0603_1U          
+ C5                  C_SMC0603_100P        
+ C6                  C_SMC0603_100P        
+ C7                  C_SMC0603_100P        
+ C8                  C_SMC0603_1U          
+ C9                  C_SMC0603_100P        
+ C10                 C_SMC0603_1U          
+ C11                 C_SMC0603_2.4P        
+ C12                 C_SMC0603_100P        
+ C13                 C_SMC0603_1000P       
+ C14                 C_SMC0603_4.7U        
+ C15                 C_SMC0603_18P         
+ C16                 C_SMC0603_100P        
+ C17                 C_SMC0603_220P        
+ C18                 CAP NP_SMC0603_10N    
+ C19                 CAP NP_SMC0603_1N     
+ C20                 CAP NP_SMC0603_330P   
+ C21                 CAP NP_SMC0603_56P    
+ C22                 CAP POL_F921A335MPA_3.3U 
+ C23                 CAP NP_SMC0603_10N    
+ C24                 CAP NP_SMC0603_1N     
+ C25                 CAP NP_SMC0603_330P   
+ C26                 CAP POL_F921A335MPA_3.3U 
+ C27                 CAP NP_SMC0603_22P    
+ C28                 CAP NP_SMC0603_2P     
+ C29                 CAP NP_SMC0603_56P    
+ C30                 CAP NP_SMC0603_47P    
+ C31                 CAP NP_SMC0603_1N     
+ C32                 CAP NP_SMC0603_10N    
+ C33                 CAP NP_SMC0603_10N    
+ C34                 CAP NP_SMC0603_10N    
+ C35                 C_SMC0603_2.2U        
+ J2                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J3                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J5                  SMA_EDGE_CON_SMA_EDGE_SMA_EDGE 
+ J6                  HEADER 10_BCON_10X1V_100S_1SQ_4 
+ J7                  PJ-036AH-SMT-TR_PJ-036AH-SMT-TR 
+ L1                  INDUCTOR_SMC0603_68N  
+ L2                  INDUCTOR_SMC0603_3.9N 
+ L3                  INDUCTOR_SMC0603_5.6N 
+ L4                  INDUCTOR_SMC0603_5.6N 
+ L5                  INDUCTOR_SMC0603_12N  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L6                  INDUCTOR_SMC0603_22N  
+ L7                  INDUCTOR_SMC0603_6.8N 
+ L8                  INDUCTOR_SMC0603_2.7N 
+ L9                  INDUCTOR_NR3012T1R0N_1U 
+ L10                 INDUCTOR_SMC0805_BLM21PG221SM1D 
+ R1                  R_SMC0603_33K         
+ R2                  R_SMC0603_10K         
+ R3                  R_SMC0603_1.8K        
+ R4                  R_SMC0603_2K          
+ R5                  R_SMC0603_1K          
+ R6                  R_SMC0603_1K          
+ R7                  R_SMC0603_0K          
+ R8                  R_SMC0603_0K          
+ R9                  RESISTOR_SMC0603_18   
+ R10                 RESISTOR_SMC0603_180  
+ R11                 RESISTOR_SMC0603_0    
+ R12                 RESISTOR_SMC0603_0    
+ R13                 RESISTOR_SMC0603_0    
+ U1                  HMC544_0_SOT26_6P_HMC544 
+ U2                  74AC04_0_SOT26_6P_74LVC2G04 
+ U3                  TQP3M9036_2_DFN2X2_8P_TQP3M9036 
+ U4                  MMZ09332BT1_3_QFN3X3_12P_MMZ093 
+ U5                  RF5110G_1_QFN_3X3_16P_RF5110G 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C24.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C28.2                          PRIM_FILE      .\pstchip.dat
+ C29.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C31.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ C33.2                          PRIM_FILE      .\pstchip.dat
+ C34.2                          PRIM_FILE      .\pstchip.dat
+ C35.2                          PRIM_FILE      .\pstchip.dat
+ J2.3                           PRIM_FILE      .\pstchip.dat
+ J3.3                           PRIM_FILE      .\pstchip.dat
+ J5.3                           PRIM_FILE      .\pstchip.dat
+ J6.9                           PRIM_FILE      .\pstchip.dat
+ J7.3                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           PRIM_FILE      .\pstchip.dat
+ L4.2                           PRIM_FILE      .\pstchip.dat
+ L5.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L6.2                           PRIM_FILE      .\pstchip.dat
+ L7.2                           PRIM_FILE      .\pstchip.dat
+ L8.2                           PRIM_FILE      .\pstchip.dat
+ L9.2                           PRIM_FILE      .\pstchip.dat
+ L10.2                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ U1.5                           PRIM_FILE      .\pstchip.dat
+ U2.1                           PRIM_FILE      .\pstchip.dat
+ U2.3                           PRIM_FILE      .\pstchip.dat
+ U3.6                           PRIM_FILE      .\pstchip.dat
+ U4.11                          PRIM_FILE      .\pstchip.dat
+ U5.6                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  frontend.brd                                                                |
+|                                                    Thu Apr 12 14:32:22 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     184                                        |
+|       Comp definitions added:      42                                        |
+|       Components added      :      68                                        |
+|       Slot property added   :      69                                        |
+|                                                                              |
+|   Total ECO changes reported:     363                                        |
+|------------------------------------------------------------------------------|

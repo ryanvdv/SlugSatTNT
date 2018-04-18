@@ -1,0 +1,38 @@
+\t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Apr 10 21:32:23 2018
+\t (00:00:00)         Host=BE308PC03 User=awicker Pid=8976 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession awicker -file C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/sm_llb_pad51.pad -tempout E:/TT_schematics/[default_project root]/Lib/symbols/#Taaaabt03012.tmp -p E:/TT_schematics/[default_project root]/Lib/symbols
+\t (00:00:00) 
+\d (00:00:06) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\d (00:00:07) QtFillin Yes
+\w (00:00:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:07) QtSignal MainWindow Units activated Millimeter
+\d (00:00:34) QtSignal GuidedDesignLayersTab PadWidth editingFinished 0.6000
+\d (00:00:45) QtSignal GuidedDesignLayersTab PadHeight editingFinished 1.0000
+\d (00:00:52) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:55) QtSignal GuidedMaskLayersTab PadWidth editingFinished 0.7000
+\d (00:00:58) QtFillin OK
+\d (00:01:01) QtSignal GuidedMaskLayersTab PadHeight editingFinished 1.1000
+\d (00:01:07) QtSignal MainWindow SaveAs triggered
+\d (00:01:11) QtSignal pseCheckBrowser Close clicked
+\d (00:01:13) QtFillin No
+\d (00:01:14) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:01:14) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:01:16) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged None
+\d (00:01:16) QtSignal GuidedMaskLayersTab PadShape activated None
+\d (00:01:17) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:01:17) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Anti Pad"
+\d (00:01:17) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Anti Pad" 0 4
+\d (00:01:19) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged None
+\d (00:01:19) QtSignal GuidedDesignLayersTab PadShape activated None
+\d (00:01:21) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:01:21) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:01:24) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:01:25) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
+\d (00:01:25) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad 1 1
+\d (00:01:25) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:01:25) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
+\d (00:01:30) QtSignal MainWindow SaveAs triggered
+\d (00:01:44) QtFillin sm_mm_06x1.pad
+\d (00:01:47) QtSignal MainWindow UpdateToDesignExit triggered
+\t (00:01:48)     Journal end - Tue Apr 10 21:34:11 2018

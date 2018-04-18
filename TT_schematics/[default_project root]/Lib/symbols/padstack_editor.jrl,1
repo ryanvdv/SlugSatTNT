@@ -1,0 +1,14 @@
+\t (00:00:00) padstack_editor 17.2 S021 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Apr 10 21:31:33 2018
+\t (00:00:00)         Host=BE308PC03 User=awicker Pid=7672 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession awicker -file C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols/sm_llb_pad15.pad -tempout E:/TT_schematics/[default_project root]/Lib/symbols/#Taaaabs03012.tmp -p E:/TT_schematics/[default_project root]/Lib/symbols
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:07) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:23) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\d (00:00:24) QtFillin Yes
+\w (00:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:24) QtSignal MainWindow Units activated Millimeter
+\d (00:00:29) QtFillin No
+\t (00:00:29)     Journal end - Tue Apr 10 21:32:02 2018

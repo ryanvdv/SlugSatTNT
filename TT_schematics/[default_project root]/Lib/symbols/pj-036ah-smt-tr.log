@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PJ-036AH-SMT-TR.dra                           )
+(    Software Version : 17.2S022                                      )
+(    Date/Time        : Tue Apr 10 21:05:25 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/TT_schematics/[default_project root]/Lib/symbols
+    Name      = pj-036ah-smt-tr.psm
+    User      = awicker
+    Machine   = BE308PC03
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

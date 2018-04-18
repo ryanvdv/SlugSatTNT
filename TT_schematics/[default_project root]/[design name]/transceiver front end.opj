@@ -1,0 +1,251 @@
+(ExpressProject "Transceiver Front End"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\transceiverlib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\transceiver front end.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DRC")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "FALSE")
+    (DRC_Check_Normal_Convert_View_Sync "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "FALSE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
+    (DRC_Check_Missing_Pin_Numbers "FALSE")
+    (DRC_Check_Device_With_No_Pins "FALSE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "FALSE")
+    (DRC_Type_Mismatch "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "D:\TT_schematics\[default_project root]\[design name]\pcb")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\TRANSCEIVER FRONT END.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\transceiver front end.drc"
+      (Type "Report"))
+    (File
+       "c:\users\awicker\desktop\tt_schematics\[default_project root]\[design name]\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File
+       "c:\users\awicker\desktop\tt_schematics\[default_project root]\[design name]\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File
+       "c:\users\awicker\desktop\tt_schematics\[default_project root]\[design name]\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PJ-036AH-SMT-TR
+      (FullPartName "PJ-036AH-SMT-TR.Normal")
+      (LibraryName
+         "E:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (PJ-066A
+      (FullPartName "PJ-066A.Normal")
+      (LibraryName "C:\USERS\AWICKER\DOWNLOADS\LPS_LIB.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10"
+      (FullPartName "HEADER 10.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SMA_EDGE
+      (FullPartName "SMA_EDGE.Normal")
+      (LibraryName
+         "E:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (RF5110G
+      (FullPartName "RF5110G.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MMZ09332BT1
+      (FullPartName "MMZ09332BT1.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (TQP3M9036
+      (FullPartName "TQP3M9036.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (EL2005GC
+      (FullPartName "EL2005GC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\AMPLIFIER.OLB")
+      (DeviceIndex "0"))
+    (TQP3M9026
+      (FullPartName "TQP3M9026.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0"))
+    (MAX460/TO
+      (FullPartName "MAX460/TO.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\AMPLIFIER.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (74AC04
+      (FullPartName "74AC04.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "1"))
+    (74AHC04
+      (FullPartName "74AHC04.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (hmc544
+      (FullPartName "hmc544.Normal")
+      (LibraryName
+         "C:\USERS\AWICKER\DESKTOP\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\LIB\TRANSCEIVERLIB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\transceiver front end.dsn")
+      (Path "Design Resources" ".\transceiver front end.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\transceiver front end.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\lib\transceiverlib.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\transceiver front end.dsn" "SCHEMATIC1"
+         "RF Switch"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 674 -8 -31 0 287 0 769"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 285 1841 2 747")
+        (Scroll "-269 36")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LNA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 282 1888 4 517")
+        (Scroll "-294 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "NXP Power Amp"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 296 1902 -12 501")
+        (Scroll "-294 40")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "QORVO Power Amp")))
+  (MPSSessionName "awicker")
+  (LastUsedLibraryBrowseDirectory "C:\Users\awicker\Downloads")
+  (ISPCBBASICLICENSE "false"))
