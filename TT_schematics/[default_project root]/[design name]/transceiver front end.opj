@@ -201,51 +201,58 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\transceiver front end.dsn")
       (Path "Design Resources" ".\transceiver front end.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\transceiver front end.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\lib\transceiverlib.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\transceiver front end.dsn" "SCHEMATIC1"
-         "RF Switch"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 0 674 -8 -31 0 287 0 769"))
+        (Placement "44 2 3 0 674 -8 -31 0 287 0 769"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 285 1841 2 747")
-        (Scroll "-269 36")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-309 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "LNA"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 282 1888 4 517")
-        (Scroll "-294 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+         "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
       (Schematic "SCHEMATIC1")
       (Page "NXP Power Amp"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 296 1902 -12 501")
-        (Scroll "-294 40")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "-309 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "D:\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+         "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "LNA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "RF Switch"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TT_SCHEMATICS\[DEFAULT_PROJECT ROOT]\[DESIGN NAME]\TRANSCEIVER FRONT END.DSN")
       (Schematic "SCHEMATIC1")
       (Page "QORVO Power Amp")))
-  (MPSSessionName "awicker")
+  (MPSSessionName "admatthe")
   (LastUsedLibraryBrowseDirectory "C:\Users\awicker\Downloads")
   (ISPCBBASICLICENSE "false"))
