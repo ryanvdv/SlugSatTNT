@@ -202,18 +202,19 @@
       (Path "Design Resources" ".\transceiver front end.dsn")
       (Path "Design Resources" ".\transceiver front end.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 0 674 -8 -31 0 287 0 769"))
+        (Placement "44 0 1 0 674 -8 -31 0 287 0 769"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-309 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-435 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
