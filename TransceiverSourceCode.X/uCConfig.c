@@ -1,14 +1,11 @@
 /*
- * File:   BOARD.h
- * Author: Max Dunne
+ * File:   uCConfig.c
+ * Author: admatthe
  *
- * Created on December 19, 2012, 2:08 PM
- * 
- * Much of the odder code come directly from the microchip peripheral library as reinventing the wheel seemed
- * not necessary
+ * Created on May 21, 2018, 11:52 AM
  */
 
-#include "BOARD.h"
+#include "uCConfig.h"
 
 // Microchip Libraries
 #include <xc.h>
@@ -22,13 +19,16 @@
  * PRAGMAS                                                                     *
  ******************************************************************************/
 // Configuration Bits
-// SYSCLK = 80MHz
+// SYSCLK = 80MHz (8MHz Crystal / FPLLIDIV * FPLLMUL / FPLLODIV)
 // PBCLK  = 20MHz
 // using POSC w/ PLL, XT mode
-#pragma config FPBDIV     = DIV_4
+#pragma config FPLLMUL    = MUL_20
 #pragma config FPLLIDIV   = DIV_2     // Set the PLL input divider to 2, seems to
+#pragma config FPLLODIV   = DIV_1
+#pragma config FPBDIV     = DIV_4
 #pragma config IESO       = OFF       // Internal/External Switch
-#pragma config POSCMOD    = XT        // Primary Oscillator Configuration for XT osc mode
+#pragma config POSCMOD    = HS        // Primary Oscillator Configuration for HS osc mode
+#pragma config FNOSC      = PRIPLL    // 
 #pragma config OSCIOFNC   = OFF       // Disable clock signal output
 #pragma config FCKSM      = CSECMD    // Clock Switching and Monitor Selection
 #pragma config WDTPS      = PS1       // Specify the watchdog timer interval (unused)
@@ -47,7 +47,6 @@
 #define QUEUESIZE 512
 #define TurnOffAndClearInterrupt(Name) INTEnable(Name,INT_DISABLED); INTClearFlag(Name)
 #define TurnPortToInput(Tris) Tris=0xFFFF
-
 
 //#define LAB10_READ_OVERWRITE
 /*******************************************************************************
@@ -240,67 +239,3 @@ void SERIAL_Init(void) {
     //printf("\r\n%d\t%d",U1BRG,brg);
 
 }
-
-
-
-/*******************************************************************************
- * OVERRIDE FUNCTIONS                                                          *
- ******************************************************************************/
-
-/**
- * @Function read(int handle, void *buffer, unsigned int len)
- * @param handle
- * @param buffer
- * @param len
- * @return Returns the number of characters read into buffer
- * @brief Overrides the built-in function called for scanf() to ensure proper functionality
- */
-
-#ifndef LAB10_READ_OVERWRITE
-
-int read(int handle, void *buffer, unsigned int len) {
-    int i;
-    if (handle == 0) {
-        while (!U1STAbits.URXDA) {
-            if (U1STAbits.OERR) {
-                U1STAbits.OERR = 0;
-            }
-            continue;
-        }
-        i = 0;
-        while (U1STAbits.URXDA) {
-            char tmp = U1RXREG;
-            if (tmp == '\r') {
-                tmp = '\n';
-            }
-            *(char*) buffer++ = tmp;
-            //WriteUART1(tmp);
-            U1TXREG = tmp;
-            i++;
-        }
-        return i;
-    }
-    return 0;
-}
-#endif
-
-
-
-#ifdef BOARD_TEST
-
-int main(void) {
-    BOARD_Init();
-    printf("\r\nThis stub tests SERIAL Functionality with scanf");
-    printf("\r\nIt will intake integers and divide by 2");
-    printf("\r\n Peripheral Clock: %d", BOARD_GetPBClock());
-    printf("\r\n Peripheral Clock: %d\r\n", BOARD_GetSysClock());
-    char trash;
-    int input;
-    while (1) {
-        scanf("%d%c", &input, &trash);
-        printf("\r\nEntered: %d\t/2: %d\r\n", input, input / 2);
-    }
-    while (1);
-    return 0;
-}
-#endif
