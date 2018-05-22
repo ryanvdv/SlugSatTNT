@@ -10,10 +10,8 @@
 #include <plib.h>
 
 int main(void) {
-    char cmd;
-//    int wrData = 0x3d;
-//    int rdData;
-    
+    int wrData;
+    int rdData;  
     
     BOARD_Init();
     
@@ -23,12 +21,25 @@ int main(void) {
     LATDbits.LATD3 = 1;
     
     // initialize SPI channel 1 as master, 8 bits/character, frame master divide FPB by 4
-    SpiChnOpen(2, SPICON_MSTEN | SPICON_FRMEN | SPICON_SMP | SPICON_ON, 4);
+    SpiChnOpen(2, SPICON_MSTEN | SPICON_FRMEN | SPICON_SMP | SPICON_ON | SPICON_MODE16, 4);
     
-    printf("\nEnter character: ");
-    cmd = getchar();
-    printf("Character entered: ");
-    fputc(cmd, stdout);
+    while (1) {
+        // enter hex value to be written over SPI
+        printf("Enter a hex value: 0x");
+        scanf("%x", &wrData);
+        wrData = wrData << 8;
+        printf("Hex value entered: 0x%04x\n", wrData);
+        
+        // send data on master channel to cc1200
+        SpiChnPutC(2, wrData);
+        // wait for cc1200 data to arrive in master SPI rx buffer
+        while (!SpiChnDataRdy(2));
+        // store SPI rx buffer data in rdData
+        rdData = SpiChnGetC(2);
+        // print data received from cc1200
+        printf("data received from cc1200: 0x%04x\n", rdData);
+    }
+
     
 //    
 //    printf("Write Data: 0x%x\n", wrData);
