@@ -10,120 +10,78 @@
 #include <plib.h>
 
 int main(void) {
+    int addr;
     int wrData;
+    int stByte;
     int rdData;  
+    int flag;
     
     BOARD_Init();
     
     // CC1200 Reset Pin set high
     TRISDbits.TRISD3 = 0;
-    LATDbits.LATD3 = 0;
     LATDbits.LATD3 = 1;
     
-    // initialize SPI channel 1 as master, 8 bits/character, frame master divide FPB by 4
-    SpiChnOpen(2, SPICON_MSTEN | SPICON_FRMEN | SPICON_SMP | SPICON_ON | SPICON_MODE16, 4);
+    // CC1200 Slave Select pin set high
+    TRISDbits.TRISD4 = 0;
+    LATDbits.LATD4 = 1;
+    
+    IEC1CLR = 0x03800000;
+    SPI2CON = 0;
+    rdData = SPI2BUF;
+    SPI2BRG = 1;
+    SPI2STATCLR = 0x40;
+    SPI2CON = 0x8120;
+    
     
     while (1) {
-        // enter hex value to be written over SPI
-        printf("Enter a hex value: 0x");
-        scanf("%x", &wrData);
-        wrData = wrData << 8;
-        printf("Hex value entered: 0x%04x\n", wrData);
+        flag = 0;
         
+        // enter hex value to be written over SPI
+        printf("Enter an address: 0x");
+        scanf("%x", &addr);
+        
+        if ((addr < 0x30) && (addr >> 7 == 0))
+        {
+            printf("Enter data to write: 0x");
+            scanf("%x", &wrData);
+            printf("data entered: 0x%04x\n", wrData);
+            flag = 1;
+        }
+        
+        printf("address entered: 0x%04x\n", addr);
+        
+        // bring SS pin low
+        LATDbits.LATD4 = 0;
+        
+        // get status byte
         // send data on master channel to cc1200
-        SpiChnPutC(2, wrData);
+        SPI2BUF = addr;
         // wait for cc1200 data to arrive in master SPI rx buffer
         while (!SpiChnDataRdy(2));
         // store SPI rx buffer data in rdData
-        rdData = SpiChnGetC(2);
+        stByte = SPI2BUF;
+        
+        // get data
+        // send data on master channel to cc1200
+        if (flag == 1) {
+            SPI2BUF = wrData;
+        } else {
+            SPI2BUF = 0;
+        }
+        // wait for cc1200 data to arrive in master SPI rx buffer
+        while (!SpiChnDataRdy(2));
+        // store SPI rx buffer data in rdData
+        rdData = SPI2BUF;
+        
+        // bring SS pin high
+        LATDbits.LATD4 = 1;
+        
+        // print status byte received from cc1200
+        printf("status byte received from cc1200: 0x%04x\n", stByte);
         // print data received from cc1200
         printf("data received from cc1200: 0x%04x\n", rdData);
     }
 
-    
-//    
-//    printf("Write Data: 0x%x\n", wrData);
-//    
-//    SpiChnPutC(2, wrData);  // send data on master channel
-//    
-//    while (!SpiChnDataRdy(2));
-//    
-//    rdData = SpiChnGetC(2); // waits for data to be available and returns it
-//    
-//    printf("Read Data: 0x%x\n", rdData);
- 
-    // EXAMPLE SPI CODE    
-//    //Define and initialize the transmit buffer
-//    static const char txBuff[] = "String of characters to be sent over the SPI channel";
-//    
-//    //Define the receiver buffer
-//    static char rxBuff[sizeof(txBuff)];
-//    
-//    TRISFbits.TRISF0 = 0;
-//    LATFbits.LATF0 = 0;
-//    
-//    //General variables
-//    long int ix;
-//    int rdData;
-//    const char *pSrc;
-//    char *pDst;
-//    int txferSize;
-//    int fail = 0;
-//    
-//    // initialize SPI channel 1 as master, 8 bits/character, frame master divide FPB by 2
-//    SpiChnOpen(1, SPICON_MSTEN | SPICON_FRMEN | SPICON_SMP | SPICON_ON, 2);
-//    
-//    // initialize SPI channel 2 as slave, 8 bits/character, frame slave divide FPB by 2
-//    SpiChnOpen(2, SPICON_FRMEN | SPICON_FRMSYNC | SPICON_SMP | SPICON_ON, 2);
-//    
-//    //initialize transfer size, ix, source pointer, and destination pointer variables
-//    txferSize = sizeof(txBuff);
-//    ix = txferSize + 1;
-//    pSrc = txBuff;
-//    pDst = rxBuff;
-//    
-//    while(ix--) {
-//        SpiChnPutC(1, *pSrc++);  // send data on master channel
-//        rdData = SpiChnGetC(1); // get the received data
-//        
-//        // IF statement skips the first received character, it's garbage
-//        if (ix != txferSize) {
-//            *pDst = rdData; // store the received data
-//            pDst++; // increment the destination pointer
-//        }
-//        
-//        rdData = SpiChnGetC(2); // receive data on the slave channel
-//        SpiChnPutC(2, rdData);  // relay data back
-//    }
-//    
-//    // check to see that the data was received okay
-//    pSrc = txBuff;
-//    pDst = rxBuff;
-//    
-//    // check each element of the array
-//    for (ix = 0; ix < sizeof(txBuff); ix++)
-//    {
-//        // check if the element in the destination array equals the element
-//        // in the source array
-//        // if difference, flag fail marker and break from loop
-//        if(*pDst != *pSrc){
-//            fail = 1;
-//            break;
-//        // else increment pointers and compare next elements
-//        } else {
-//            pDst++;
-//            pSrc++;
-//        }
-//    }
-//    
-//    LATFbits.LATF0 ^= 1;
-//    
-//    // check if data transfer was successful
-//    if (fail == 0) {
-//        // success
-//    } else {
-//        // failure
-//    }
-//    
     while (1);
 }
