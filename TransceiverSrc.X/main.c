@@ -6,6 +6,7 @@
  */
 
 #include "uCConfig.h"
+#include "hal_spi.h"
 #include <stdio.h>
 #include <plib.h>
 
@@ -45,42 +46,44 @@ int main(void) {
         {
             printf("Enter data to write: 0x");
             scanf("%x", &wrData);
-            printf("data entered: 0x%04x\n", wrData);
+            printf("data entered: 0x%02x\n", wrData);
             flag = 1;
         }
         
         printf("address entered: 0x%04x\n", addr);
         
         // bring SS pin low
-        LATDbits.LATD4 = 0;
+        SPI_BEGIN();
         
         // get status byte
         // send data on master channel to cc1200
-        SPI2BUF = addr;
+        SPI_TX(addr);
         // wait for cc1200 data to arrive in master SPI rx buffer
-        while (!SpiChnDataRdy(2));
+        //while (!SpiChnDataRdy(2));
+        SPI_WAIT_READY();
         // store SPI rx buffer data in rdData
-        stByte = SPI2BUF;
+        stByte = SPI_RX();
         
         // get data
         // send data on master channel to cc1200
         if (flag == 1) {
-            SPI2BUF = wrData;
+            SPI_TX(wrData);
         } else {
-            SPI2BUF = 0;
+            SPI_TX(0);
         }
         // wait for cc1200 data to arrive in master SPI rx buffer
-        while (!SpiChnDataRdy(2));
+        //while (!SpiChnDataRdy(2));
+        SPI_WAIT_READY();
         // store SPI rx buffer data in rdData
-        rdData = SPI2BUF;
+        rdData = SPI_RX();
         
         // bring SS pin high
-        LATDbits.LATD4 = 1;
+        SPI_END();
         
         // print status byte received from cc1200
-        printf("status byte received from cc1200: 0x%04x\n", stByte);
+        printf("status byte received from cc1200: 0x%02x\n", stByte);
         // print data received from cc1200
-        printf("data received from cc1200: 0x%04x\n", rdData);
+        printf("data received from cc1200: 0x%02x\n", rdData);
     }
 
     while (1);

@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=main.c uCConfig.c
+SOURCEFILES_QUOTED_IF_SPACED=main.c uCConfig.c hal_spi.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/uCConfig.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/uCConfig.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/uCConfig.o ${OBJECTDIR}/hal_spi.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/uCConfig.o.d ${OBJECTDIR}/hal_spi.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/uCConfig.o
+OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/uCConfig.o ${OBJECTDIR}/hal_spi.o
 
 # Source Files
-SOURCEFILES=main.c uCConfig.c
+SOURCEFILES=main.c uCConfig.c hal_spi.c
 
 
 CFLAGS=
@@ -118,6 +118,12 @@ ${OBJECTDIR}/uCConfig.o: uCConfig.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/uCConfig.o 
 	@${FIXDEPS} "${OBJECTDIR}/uCConfig.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -DPICkit3PlatformTool=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -Wall -MMD -MF "${OBJECTDIR}/uCConfig.o.d" -o ${OBJECTDIR}/uCConfig.o uCConfig.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD) 
 	
+${OBJECTDIR}/hal_spi.o: hal_spi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/hal_spi.o.d 
+	@${RM} ${OBJECTDIR}/hal_spi.o 
+	@${FIXDEPS} "${OBJECTDIR}/hal_spi.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -DPICkit3PlatformTool=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -Wall -MMD -MF "${OBJECTDIR}/hal_spi.o.d" -o ${OBJECTDIR}/hal_spi.o hal_spi.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD) 
+	
 else
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -130,6 +136,12 @@ ${OBJECTDIR}/uCConfig.o: uCConfig.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/uCConfig.o.d 
 	@${RM} ${OBJECTDIR}/uCConfig.o 
 	@${FIXDEPS} "${OBJECTDIR}/uCConfig.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -Wall -MMD -MF "${OBJECTDIR}/uCConfig.o.d" -o ${OBJECTDIR}/uCConfig.o uCConfig.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD) 
+	
+${OBJECTDIR}/hal_spi.o: hal_spi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/hal_spi.o.d 
+	@${RM} ${OBJECTDIR}/hal_spi.o 
+	@${FIXDEPS} "${OBJECTDIR}/hal_spi.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -Wall -MMD -MF "${OBJECTDIR}/hal_spi.o.d" -o ${OBJECTDIR}/hal_spi.o hal_spi.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD) 
 	
 endif
 
