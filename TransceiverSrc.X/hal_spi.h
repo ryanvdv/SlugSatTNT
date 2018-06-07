@@ -32,6 +32,7 @@
  * PROTOTYPES
  */
 void trxRfSpiInterfaceInit(int prescalerValue);
+int trx8BitRegAccess(int accessType, int addrByte, int *pData, int len);
 
 #endif	/* HAL_SPI_H */
 

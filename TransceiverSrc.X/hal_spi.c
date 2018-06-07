@@ -119,6 +119,7 @@ int trx8BitRegAccess(int accessType, int addrByte, int *pData, int len)
 static void trxReadWriteBurstSingle(int addr, int *pData, int len)
 {
     int i;
+    int dummy;
     /* Communicate len number of bytes: if RX - the procedure sends 0x00 to push bytes from slave*/
     if (addr & RADIO_READ_ACCESS) {
         if (addr & RADIO_BURST_ACCESS) {
@@ -139,11 +140,13 @@ static void trxReadWriteBurstSingle(int addr, int *pData, int len)
             for (i = 0; i < len; i++) {
                 SPI_TX(*pData);
                 SPI_WAIT_READY();
+                dummy = SPI_RX();
                 pData++;
             }
         } else {
             SPI_TX(*pData);
             SPI_WAIT_READY();
+            dummy = SPI_RX();
         }
     }
     return;
