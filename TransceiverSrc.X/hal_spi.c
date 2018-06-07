@@ -17,6 +17,7 @@ static void trxReadWriteBurstSingle(int addr, int *pData, int len);
 /*
  *FUNCTIONS
  */
+
 /******************************************************************************
  * @fn          trxRfSpiInterfaceInit
  *
@@ -46,13 +47,13 @@ void trxRfSpiInterfaceInit(int prescalerValue)
      * -  CKP = 0 (Inactive state is low)
      * -  CKE = 1 (Sample data on rising edge)
      * -  SMP = 0 (rx data in phase with tx data)
-    */
-    IEC1CLR = 0x03800000;       // Disable all interrupts
-    SPI2CON = 0;                // Stop and reset SPI2
-    int rdData = SPI2BUF;       // Clear the receive buffer
-    SPI2BRG = prescalerValue;   // SCLK = Fpb / (2*(prescalerValue + 1))
-    SPI2STATCLR = 0x40;         // Clear the overflow  
-    SPI2CON = 0x8120;           // Configuration 
+     */
+    IEC1CLR = 0x03800000; // Disable all interrupts
+    SPI2CON = 0; // Stop and reset SPI2
+    int rdData = SPI2BUF; // Clear the receive buffer
+    SPI2BRG = prescalerValue; // SCLK = Fpb / (2*(prescalerValue + 1))
+    SPI2STATCLR = 0x40; // Clear the overflow  
+    SPI2CON = 0x8120; // Configuration 
 }
 
 /*******************************************************************************
@@ -78,15 +79,16 @@ void trxRfSpiInterfaceInit(int prescalerValue)
  */
 int trx8BitRegAccess(int accessType, int addrByte, int *pData, int len)
 {
-  SPI_BEGIN();
-  SPI_TX(accessType|addrByte);
-  SPI_WAIT_READY();
-  int readValue = SPI_RX();
-  trxReadWriteBurstSingle(accessType|addrByte, pData, len);
-  SPI_END();
+    SPI_BEGIN();
+    SPI_TX(accessType | addrByte);
+    SPI_WAIT_READY();
+    int readValue = SPI_RX();
+    trxReadWriteBurstSingle(accessType | addrByte, pData, len);
+    SPI_END();
 
-  return(readValue);
+    return (readValue);
 }
+
 /*******************************************************************************
  * @fn          trxReadWriteBurstSingle
  *
@@ -149,5 +151,4 @@ static void trxReadWriteBurstSingle(int addr, int *pData, int len)
             dummy = SPI_RX();
         }
     }
-    return;
 }
