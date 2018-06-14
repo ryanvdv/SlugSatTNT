@@ -159,7 +159,7 @@
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Andrew")
+  (MPSSessionName "admatthe")
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -169,23 +169,22 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\lib\transceiverlib.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\t&t transceiver.dsn" "SCHEMATIC1"
-         "Transceiver"))
+      (Select "Design Resources" ".\t&t transceiver.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 200 0 466"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 466"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 76 2029 76 788")
-        (Scroll "268 249")
-        (Zoom "200")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1693 52 557")
+        (Scroll "31 272")
+        (Zoom "136")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ANDREW\DOCUMENTS\SLUGSATTNT\TNT_TRANSCEIVER\T&T TRANSCEIVER\T&T TRANSCEIVER.DSN")
+         "C:\USERS\ADMATTHE\DOCUMENTS\SLUGSATTNT\TNT_TRANSCEIVER\T&T TRANSCEIVER\T&T TRANSCEIVER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Transceiver")))
   (LastUsedLibraryBrowseDirectory "C:\Users\admatthe\Downloads")
